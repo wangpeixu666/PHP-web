@@ -1,0 +1,19 @@
+{extend name="base" /}
+{block name="body"}
+<!-- 主题内容部分 -->
+<div class="new_all">
+    <div class="new_main">
+        <div id="new_ul" class="new_ul">
+            <!--时事列表-->
+            {foreach name="printpaper_list" item="vo"}
+            <ul>
+                <li>
+                    <a style="float: left" href="{:url('index/paperhow/printpaper',['id'=>$vo['id']])}" target="_blank">&copy {$vo.title}</a>
+                    <span style="float: right"> {$vo.update_time}</span>
+                </li>
+            </ul>
+            {/foreach}
+        </div>
+    </div>
+</div>
+{/block}

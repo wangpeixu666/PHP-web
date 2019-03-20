@@ -1,0 +1,3 @@
+<?php
+//000000000000a:2:{i:0;a:9:{s:2:"id";i:1;s:3:"pid";i:0;s:4:"name";s:12:"公司首页";s:5:"alias";s:12:"公司首页";s:4:"link";s:27:"{:url('index/index/index')}";s:4:"icon";s:0:"";s:6:"target";s:5:"_self";s:6:"status";i:1;s:4:"sort";i:0;}i:1;a:9:{s:2:"id";i:2;s:3:"pid";i:0;s:4:"name";s:12:"关于我们";s:5:"alias";s:12:"关于我们";s:4:"link";s:29:"{:url('index/aboutus/index')}";s:4:"icon";s:0:"";s:6:"target";s:5:"_self";s:6:"status";i:1;s:4:"sort";i:0;}}
+?>

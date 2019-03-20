@@ -1,0 +1,188 @@
+
+/*---首页主内容样式---*/
+.aboutus_all{
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    /*background: #A52A2A;*/
+}
+.aboutus_main{
+    width:910px;
+    height:100%;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 10px;
+    /*background: #A020F0;*/
+    background: #FFFAF0;/*详情页和列表页以及其他内容背景色*/
+}
+/**左边部分--**/
+.aboutus_main_left{
+    /*padding-top: 10px;*/
+    width:210px;
+    height:520px;
+    float:left;
+    padding-left: 10px;
+}
+.aboutus_left_massage{
+    width:210px;
+    height:520px;
+}
+/**左边和右边的切换**/
+.aboutus_left_massage ul li{
+    padding-top: 10px;
+}
+.aboutus_left_img{
+    cursor:pointer;/*手势*/
+    /*border: 1px solid #A52A2A;*/
+    width:210px;
+    height:220px;
+}
+/*.aboutus_left_massage ul button{*/
+    /*padding-top: 10px;*/
+/*}*/
+#button1{
+    font:normal 14px/22px "宋体";
+    cursor:pointer;/*手势*/
+    color: #FAFAD2;
+    width:210px;
+    height:30px;
+    line-height: 30px;
+    border: 1px solid #A52A2A;
+    background:url(../images/pattern5.png);
+}
+#button2{
+    font:normal 14px/22px "宋体";
+    cursor:pointer;/*手势*/
+    color: #FAFAD2;
+    width:210px;
+    height:30px;
+    line-height: 30px;
+    border: 1px solid #A52A2A;
+    background:url(../images/pattern5.png);
+}
+
+#button1:hover{color: #ffffff;background: #6b0000;}
+#button2:hover{color: #ffffff;background: #6b0000;}
+
+
+/**右边部分*/
+.aboutus_main_right{
+    width:670px;
+    height:100%;
+    /*height:520px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    float:right;
+}
+/*---右边的内容切换--*/
+.aboutus_right_01{
+    padding-top:10px;
+    width:670px;
+    height:100%;
+    margin: 0px auto;
+    text-align: left;
+    display: block;
+    word-break:break-all;
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.aboutus_right_01 p{
+    line-height: 28px;
+    color:#8a0000;
+}
+.aboutus_right_01 p:hover{
+    cursor:pointer;/*手势*/
+    color: #000000;
+
+}
+.paper_right_massage{
+    padding-left: 10px;
+    padding-right: 10px;
+    width:670px;
+    text-align: left;
+}
+.aboutus_right_01_img{
+    width:680px;
+    height:380px;
+    text-align: center;
+}
+.aboutus_right_01_p{
+    width:670px;
+    height: 100%;
+    /*letter-spacing: 2px;*/
+    padding-right: 0px;
+}
+.aboutus_right_01_p p{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 670px;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px auto;
+    color:#8a0000;
+    word-break:break-all;
+}
+.aboutus_right_01_p:hover{
+    cursor:pointer;/*手势*/
+    color: #000000;
+
+}
+
+.aboutus_right_02{
+    padding-right: 10px;
+    width:670px;
+    height:520px;
+    margin: 0px auto;
+    padding-top: 10px;
+    text-align: left;
+    display: none;
+    /*background-color: #A52A2A;*/
+}
+.aboutus_right_02 ul{
+    padding-left: 10px;
+    width:670px;
+    height:520px;
+    margin: 0px auto;
+}
+.aboutus_right_02 ul li{
+    float: left;
+
+}
+.right_list1{
+    width:220px;
+    height:500px;
+    float: left;
+    /*background-color: green;*/
+}
+.right_list2{
+    width:220px;
+    height:500px;
+    float: center;
+    /*background-color: blue;*/
+}
+.right_list3{
+    width:220px;
+    height:500px;
+    float: right;
+    /*background-color: gray;*/
+}
+
+.aboutus_right_02 dl dd{
+    height:30px;
+    line-height: 30px;
+    text-align: left;
+    white-space: normal;
+}
+.aboutus_right_02 a{
+    color: #8a0000;
+
+}
+.aboutus_right_02 a:hover{
+    color: #000000;
+    text-decoration: none;
+
+}

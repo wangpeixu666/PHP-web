@@ -1,0 +1,153 @@
+{extend name="base" /}
+{block name="body"}
+<script type="text/javascript" src="__JS__/jcdate/jquery.min.js"></script>
+<script type="text/javascript" src="__JS__/jcdate/jQuery-jcDate.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $(".jcDate").jcDate({
+            IcoClass : "jcDateIco",
+            Event : "click",
+            Speed : 100,
+            Left : 0,
+            Top : 28,
+            format : "-",
+            Timeout : 100
+        });
+    });
+</script>
+<div class="layui-body">
+    <style type="text/css">
+        .layui-inline ul li{float:left;}
+        a{color:#0000FF}
+        a:hover{
+            color: #008B00;
+        }
+    </style>
+    <!--tab标签-->
+    <div class="layui-tab layui-tab-brief">
+        <ul class="layui-tab-title">
+            <li class=""><a href="{:url('admin/statistics/index')}">参赛统计</a></li>
+        </ul>
+		 <div class="layui-tab-item layui-show">
+            <!-- 下拉列表框 -->
+            <form class="layui-form layui-form-pane" action="{:url('admin/statistics/index')}" method="post">
+                <div class="layui-inline">
+                    <ul>
+                        <li>
+                            <select id="u_createtime" name="createday" value="">
+                                <option value="3d"
+                                <?php
+                                     if(isset($createday)){
+                                        if($createday == '3d'){
+                                          echo 'selected';
+                                        }
+                                      }
+                                ?>
+                                >最近三天</option>
+                                <option value="24"
+                                <?php
+                                     if(isset($createday)){
+                                        if($createday == '24'){
+                                          echo 'selected';
+                                        }
+                                      }
+                                ?>
+                                >24小时</option>
+                                <option value="7d"
+                                <?php
+                                     if(isset($createday)){
+                                        if($createday == '7d'){
+                                          echo 'selected';
+                                        }
+                                      }
+                                ?>
+                                >最近七天</option>
+                                <option value="30d"
+                                <?php
+                                     if(isset($createday)){
+                                        if($createday == '30d'){
+                                          echo 'selected';
+                                        }
+                                      }
+                                ?>
+                                >最近一个月</option>
+                                <option value="90d"
+                                <?php
+                                     if(isset($createday)){
+                                        if($createday == '90d'){
+                                          echo 'selected';
+                                        }
+                                      }
+                                ?>
+                                >最近三个月</option>
+                                <option value="180d"
+                                <?php
+                                     if(isset($createday)){
+                                        if($createday == '180d'){
+                                          echo 'selected';
+                                        }
+                                      }
+                                ?>
+                                >最近半年</option>
+                                <option value="timeall"
+                                <?php
+                                     if(isset($createday)){
+                                        if($createday == 'timeall'){
+                                          echo 'selected';
+                                        }
+                                      }
+                                ?>
+                                >全部</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="layui-inline">
+                        <input class="jcDate" placeholder="开始时间" name="onetime" value="<?php
+                        if(isset($onetime)){
+                            echo $onetime;
+                        }
+                        ?>" style="width:185px; height:20px; line-height:20px; padding:4px;" />
+                        -至-
+                        <input class="jcDate" placeholder="结束时间" name="twotime" value="<?php
+                        if(isset($twotime)){
+                            echo $twotime;
+                        }
+                        ?>" style="width:185px; height:20px; line-height:20px; padding:4px;" />
+                </div>
+                <div class="layui-inline">
+                    <button class="layui-btn">查询</button>
+                </div>
+            </form>
+        </div>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <table border="1" class="layui-table">
+					<thead>
+						<tr>
+							<th>日期</th>
+							<th>注册总人数</th>
+							<th>新增注册人数</th>
+							<th>参赛总人数</th>
+							<th>新增参赛人数</th>
+						</tr>
+					</thead>
+					 <tbody>
+                     {foreach name="statistics_list" item="vo"}
+						<tr>
+							<td>{$vo.create_time}</td>
+							<td>{$allcount}</td>
+							<td>{$newregist}</td>
+							<td>{$allenter}</td>
+							<td>{$newaddenter}</td>
+						</tr>
+                     {/foreach}
+					 </tbody>
+                </table>
+				<!--分页-->
+                {$statistics_list->render()}
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

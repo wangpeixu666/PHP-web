@@ -1,0 +1,78 @@
+{extend name="base" /}
+{block name="body"}
+<div class="layui-body">
+    <!--tab标签-->
+    <div class="layui-tab layui-tab-brief">
+        <ul class="layui-tab-title">
+            <li class=""><a href="{:url('admin/printcloud/index')}">云端管理</a></li>
+            <li class=""><a href="{:url('admin/printcloud/add')}">添加内容</a></li>
+            <li class="layui-this">编辑内容</li>
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <form class="layui-form form-container" action="{:url('admin/printcloud/update')}" method="post">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">用户名称</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="username" value="{$printcloud.username}" required  lay-verify="required" placeholder="请输入用户名称" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">内容标题</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="title" value="{$printcloud.title}" required  lay-verify="required" placeholder="请输入内容标题" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">主要内容</label>
+                        <div class="layui-input-block">
+                            <textarea name="content" lay-verify="content" placeholder="" class="layui-textarea" id="content">{$printcloud.content}</textarea>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <input type="hidden" name="id" value="{$printcloud.id}">
+                            <button class="layui-btn" lay-submit lay-filter="*">更新</button>
+                            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}
+{block name="js"}
+<script src="__JS__/ueditor/ueditor.config.js"></script>
+<script src="__JS__/ueditor/ueditor.all.min.js"></script>
+{/block}
+{block name="script"}
+<script>
+    $(function() {
+        var ue = UE.getEditor('content'),
+            uploadEditor = UE.getEditor('upload-photo-btn'),
+            photoListItem,
+            uploadImage;
+
+        uploadEditor.ready(function () {
+            uploadEditor.setDisabled();
+            uploadEditor.hide();
+            uploadEditor.addListener('beforeInsertImage', function (t, arg) {
+                $.each(arg, function (index, item) {
+                    photoListItem = '<div class="photo-list"><input type="text" name="photo[]" value="' + item.src + '" class="layui-input layui-input-inline">';
+                    photoListItem += '<button type="button" class="layui-btn layui-btn-danger remove-photo-btn">移除</button></div>';
+
+                    $('#photo-container').append(photoListItem).on('click', '.remove-photo-btn', function () {
+                        $(this).parent('.photo-list').remove();
+                    });
+                });
+            });
+        });
+
+        $('#upload-photo-btn').on('click', function () {
+            uploadImage = uploadEditor.getDialog("insertimage");
+            uploadImage.open();
+        });
+    });
+</script>
+{/block}

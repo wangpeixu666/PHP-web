@@ -1,0 +1,135 @@
+{extend name="base" /}
+{block name="body"}
+<div class="layui-body">
+    <!--tab标签-->
+    <div class="layui-tab layui-tab-brief">
+        <ul class="layui-tab-title">
+            <li class=""><a href="{:url('admin/printcompany/index')}">公司简介</a></li>
+            <li class="layui-this">添加公司简介</li>
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <form class="layui-form form-container" action="{:url('admin/printcompany/save')}" method="post">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">公司名称</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="name" value="" required  lay-verify="required" placeholder="请输入名称" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">公司地址</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="address" value="" required  lay-verify="required" placeholder="请输入地址" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">公司邮编</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="code" value="" required  lay-verify="required" placeholder="请输入邮编" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">公司邮箱</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="email" value="" required  lay-verify="required" placeholder="请输入公司邮箱" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">公司电话</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="phone" value="" required  lay-verify="required" placeholder="请输入电话" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">首页简介</label>
+                        <div class="layui-input-block">
+                            <textarea name="introduction" placeholder="（必填）请输入文化新闻简介(控制在250个字之内)" class="layui-textarea" id="introduction"></textarea>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">简介内容</label>
+                        <div class="layui-input-block">
+                            <textarea name="content" placeholder="请输入简介内容" class="layui-textarea" id="content"></textarea>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">缩略图</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="thumb" value="" class="layui-input layui-input-inline" id="thumb">
+                            <input type="file" name="file" class="layui-upload-file">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button class="layui-btn" lay-submit lay-filter="*">保存</button>
+                            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}
+{block name="js"}
+<script src="__JS__/ueditor/ueditor.config.js"></script>
+<script src="__JS__/ueditor/ueditor.all.min.js"></script>
+{/block}
+{block name="script"}
+<script>
+    $(function() {
+        var ue = UE.getEditor('introduction'),
+            uploadEditor = UE.getEditor('upload-photo-btn'),
+            photoListItem,
+            uploadImage;
+
+        uploadEditor.ready(function () {
+            uploadEditor.setDisabled();
+            uploadEditor.hide();
+            uploadEditor.addListener('beforeInsertImage', function (t, arg) {
+                $.each(arg, function (index, item) {
+                    photoListItem = '<div class="photo-list"><input type="text" name="photo[]" value="' + item.src + '" class="layui-input layui-input-inline">';
+                    photoListItem += '<button type="button" class="layui-btn layui-btn-danger remove-photo-btn">移除</button></div>';
+
+                    $('#photo-container').append(photoListItem).on('click', '.remove-photo-btn', function () {
+                        $(this).parent('.photo-list').remove();
+                    });
+                });
+            });
+        });
+
+        $('#upload-photo-btn').on('click', function () {
+            uploadImage = uploadEditor.getDialog("insertimage");
+            uploadImage.open();
+        });
+    });
+</script>
+<script>
+    $(function() {
+        var ue = UE.getEditor('content'),
+            uploadEditor = UE.getEditor('upload-photo-btn'),
+            photoListItem,
+            uploadImage;
+
+        uploadEditor.ready(function () {
+            uploadEditor.setDisabled();
+            uploadEditor.hide();
+            uploadEditor.addListener('beforeInsertImage', function (t, arg) {
+                $.each(arg, function (index, item) {
+                    photoListItem = '<div class="photo-list"><input type="text" name="photo[]" value="' + item.src + '" class="layui-input layui-input-inline">';
+                    photoListItem += '<button type="button" class="layui-btn layui-btn-danger remove-photo-btn">移除</button></div>';
+
+                    $('#photo-container').append(photoListItem).on('click', '.remove-photo-btn', function () {
+                        $(this).parent('.photo-list').remove();
+                    });
+                });
+            });
+        });
+
+        $('#upload-photo-btn').on('click', function () {
+            uploadImage = uploadEditor.getDialog("insertimage");
+            uploadImage.open();
+        });
+    });
+</script>
+{/block}

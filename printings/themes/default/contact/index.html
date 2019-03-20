@@ -1,0 +1,50 @@
+{extend name="base" /}
+{block name="body"}
+
+<!-- 联系我们内容部分 -->
+<div class="contact_all">
+    <div class="contact_main">
+        <ul>
+            <li class="contact_main_left">
+                <div  class="contact_left_massage">
+                    <!--<ul>-->
+                        <!--<li><strong>{$aboutus.name}</strong></li>-->
+                        <!--<li>公司地址：{$aboutus.address}</li>-->
+                        <!--<li>公司邮箱：{$aboutus.email}</li>-->
+                        <!--<li>邮政编码：{$aboutus.code}</li>-->
+                        <!--<li>公司电话：{$aboutus.phone}</li>-->
+                    <!--</ul>-->
+                    <ul>
+                        <li>名称：北京中版联印刷物资有限公司</li>
+                        <li>地址：北京市东城区朝阳门内大街甲55号0812室</li>
+                        <li>邮箱：ningxiaobo1973@sina.com</li>
+                        <li>业务总监（宁先生）</li>
+                        <li>手机：13801165731</li>
+                        <li>业务部门</li>
+                        <li>纸张业务部：010-58110894</li>
+                        <li>办公室：010-58110842</li>
+                        <li>传真：010-58110843</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="contact_main_right">
+                <div class="right_map_div">
+                    <iframe class="right_map" src="{:url('index/contact/baidumap')}" frameborder="0" scrolling="no" class="map"></iframe>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script type="text/javascript">
+    //导航中的选中特效
+    $(document).ready(function(){
+        $("#img_04").each(function(){
+            $this = $(this);
+            $this.show();  //选中
+        });
+
+    });
+</script>
+
+{/block}

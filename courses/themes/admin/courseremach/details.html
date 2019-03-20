@@ -1,0 +1,282 @@
+{extend name="base" /}
+{block name="body"}
+<script type="text/javascript" src="__JS__/jquery.min.js"></script>
+<style type="text/css">
+		a{color:#0000FF}
+        a:hover{
+            color: #008B00;
+        }
+        .black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: #F8F8FF;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+        }
+        .white_content {
+        display: none;
+        position: absolute;
+        top:50%;
+        right: 10%;
+        width: 35%;
+        height: 30%;
+        border: 1px solid lightblue;
+        background-color: #FFFFFF;
+        z-index:1002;
+        overflow: auto;
+        }
+        .advanced{
+            padding:10px;
+            margin:10px;
+            text-align: center;
+
+        }
+        .advanced input{
+            padding:10px;
+            width:120px;
+            height:45px;
+            line-height: 15px;
+            border:0px solid;
+            border-radius:5px;
+            background: #009ACD;
+            color: #FFFFFF;
+            cursor:pointer;
+        }
+            .layui-table{}
+            .layui-table tbody tr th{background-color: #f2f2f2;}
+</style>
+<div class="layui-body">
+    <!--tab标签-->
+    <div class="layui-tab layui-tab-brief">
+        <ul class="layui-tab-title">
+            <li class=""><a href="{:url('admin/courseremach/index')}">复赛管理</a></li>
+  <!--          <li class=""><a href="{:url('admin/courseremach/add')}">添加课件</a></li>-->
+            <li class="layui-this">复赛详情</li>
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <table border="1" class="layui-table">
+                    <input type="hidden" id="uid-{$courseremach_details.id}" value="{$courseremach_details.id}">
+                    <tr>
+                        <th>姓名</th><td>{$courseremach_details.actualname}</td>
+                        <th>性别</th>
+                        <td>{php}echo $courseremach_details['sex']==0 ? '男' : '女';{/php}</td>
+                    </tr>
+                    <tr>
+                        <th>出生年月</th><td>{$courseremach_details.birthdate}({$age}岁)</td>
+                        <th>联系电话</th><td>{$courseremach_details.mobile}</td>
+                    </tr>
+                    <tr>
+                        <th>职称</th><td>{$courseremach_details.jobtitle}</td>
+                        <th>授课年级</th><td>{$courseremach_details.teachgrade}</td>
+                    </tr>
+                    <tr><th>任职学校</th><td>{$courseremach_details.school}</td></tr>
+                    <tr><th>联系地址</th><td>{$courseremach_details.address}</td></tr>
+                    <tr><th>参赛类型</th>
+                        {if condition="$courseremach_details.cstype eq 1"}
+                        <td>个人</td>
+                        {/if}
+                        {if condition="$courseremach_details.cstype eq 2"}
+                        <td>团体({$courseremach_details.groupname})</td>
+                        {/if}
+                    </tr>
+					<tr><th>视频名称</th><td>{$courseremach_details.recsname}</td></tr>
+					<tr><th>视频地址</th>
+                        <td width='300' style=”word-wrap:break-word;word-break:break-all;”>
+                            <a href="{$courseremach_details.videoURL}">{$courseremach_details.videoURL}</a>
+                        </td></tr>
+					<tr><th>分享密码</th><td>{$courseremach_details.vipwd}</td></tr>
+                    <tr><th>评奖状态</th>
+						{if condition='$courseremach_details.grade eq 0'}
+                        <td><i style="color:#2E8B57" class="status-bar1">未评奖</i></td>
+						{/if}
+						{if condition='$courseremach_details.grade eq 1'}
+                        <td><i style="color:#FF0000" class="status-bar1">一等奖</i></td>
+						{/if}
+						{if condition='$courseremach_details.grade eq 2'}
+                        <td><i style="color:#FF0000" class="status-bar1">二等奖</i></td>
+						{/if}
+						{if condition='$courseremach_details.grade eq 3'}
+                        <td><i style="color:#FF0000" class="status-bar1">三等奖</i></td>
+						{/if}
+                    </tr>
+                </table>
+
+                <div class="advanced">
+                    {if condition='$courseremach_details.grade eq 0'}
+				        <input id="Button1" type="button" value="评奖" onclick="ShowDiv('MyDiv-{$courseremach_details.id}','fade')" />
+                    {/if}
+                    {if condition='$courseremach_details.grade neq 0'}
+                    <input id="Button2" type="button" value="此用户已评奖"  />
+                    {/if}
+                </div>
+
+				<!--弹出层时背景层DIV-->
+				<div id="fade" class="black_overlay">
+				</div>
+                <div id="MyDiv-{$courseremach_details.id}" class="white_content">
+                    <div style="height: 25px;padding:10px;background:#F0F0F0;" id="move">
+                        <h3>评奖</h3>
+                        <!--<span style="padding-right:2px;font-size: 16px;cursor: default;" onclick="CloseDiv('MyDiv','fade')">X</span>-->
+                    </div>
+                    <div style="float:left;padding:10px;">
+                        <span><i style="color:red;font-size: 18px;">*</i>评奖</span>
+                        <label for="one-{$courseremach_details.id}"><input id="one-{$courseremach_details.id}"	type="radio" name="gradebt" style="margin-bottom:5px;" value="1" /><span>一等奖</span></label>
+                        <label for="two-{$courseremach_details.id}"><input id="two-{$courseremach_details.id}"	type="radio" name="gradebt" style="margin-bottom:5px;" value="2" /><span>二等奖</span></label>
+                        <label for="three-{$courseremach_details.id}"><input id="three-{$courseremach_details.id}" type="radio" name="gradebt" style="margin-bottom:5px;" value="3" /><span>三等奖</span></label>
+                    </div>
+                    <div style="float:left;padding-top:30px;line-height:30px;height:30px;">
+                        <input type="button" class="clepost"  onclick="
+                                    var gradebt = $('input[name=gradebt]:checked').val();
+                                    var uid = $('#uid-{$courseremach_details.id}').val();
+                                    var  award='';
+                                    if(gradebt == '1'){
+                                        award = '一等奖';
+                                    }else if(gradebt == '2'){
+                                        award = '二等奖';
+                                    }else if(gradebt == '3'){
+                                        award = '三等奖';
+                                    }
+                                    var str = '是否确认评为'+ award+'?';
+                                    var r=confirm(str);
+                                    if (r==true)
+                                    {
+                                        $.post('{:url('admin/courseremach/gradepost')}',{gradebt:gradebt,uid:uid},function(data) {
+                                            if(data.code == 2000){
+                                               window.location.href ='{:url('admin/courseremach/index')}';
+                                            }else{
+                                                return false;
+                                            }
+                                        });
+                                    }
+                                    else
+                                    {
+                                        return false;
+                                    }
+                                    " value="提交">
+                        <input type="button" class="clinet" onclick="CloseDiv('MyDiv-{$courseremach_details.id}','fade')" value="取消">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}
+{block name="js"}
+<script src="__JS__/ueditor/ueditor.config.js"></script>
+<script src="__JS__/ueditor/ueditor.all.min.js"></script>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+	var ue = UE.getEditor('content');
+	//弹出隐藏层
+	function ShowDiv(show_div,bg_div){
+	document.getElementById(show_div).style.display='block';
+	document.getElementById(bg_div).style.display='block' ;
+	var bgdiv = document.getElementById(bg_div);
+	bgdiv.style.width = document.body.scrollWidth;
+	// bgdiv.style.height = $(document).height();
+	$("#"+bg_div).height($(document).height());
+	};
+	//关闭弹出层
+	function CloseDiv(show_div,bg_div)
+	{
+	document.getElementById(show_div).style.display='none';
+	document.getElementById(bg_div).style.display='none';
+	};	
+
+	window.onload = function (){
+		var myDiv = document.getElementById("MyDiv");
+		var move = document.getElementById("move");
+		var bDrag = false;
+		var disX = disY = 0;
+		
+		move.onmousedown = function (event){
+			var event = event || window.event;
+			bDrag = true;
+			disX = event.clientX - myDiv.offsetLeft;
+			disY = event.clientY - myDiv.offsetTop;
+			this.setCapture && this.setCapture();
+			return false;
+		};
+		document.onmousemove = function (event){
+			if (!bDrag) return;
+			var event = event || window.event;
+			var iL = event.clientX - disX;
+			var iT = event.clientY - disY;
+			var maxL = document.documentElement.clientWidth - myDiv.offsetWidth;
+			var maxT = document.documentElement.clientHeight - myDiv.offsetHeight;
+			iL = iL < 0 ? 0 : iL;
+			iL = iL > maxL ? maxL : iL;
+			iT = iT < 0 ? 0 : iT;
+			iT = iT > maxT ? maxT : iT;
+			myDiv.style.marginTop = myDiv.style.marginLeft = 0;
+			myDiv.style.left = iL + "px";
+			myDiv.style.top = iT + "px";
+			return false;
+		};
+		document.onmouseup = window.onblur = move.onlosecapture = function (){
+			bDrag = false;
+			move.releaseCapture && move.releaseCapture();
+		};
+	}
+    /*根据出生日期算出年龄*/
+    function jsGetAge(strBirthday){       
+        var returnAge;
+        var strBirthdayArr=strBirthday.split("-");
+        var birthYear = strBirthdayArr[0];
+        var birthMonth = strBirthdayArr[1];
+        var birthDay = strBirthdayArr[2];
+        
+        d = new Date();
+        var nowYear = d.getFullYear();
+        var nowMonth = d.getMonth() + 1;
+        var nowDay = d.getDate();
+        
+        if(nowYear == birthYear){
+            returnAge = 0;//同年 则为0岁
+        }
+        else{
+            var ageDiff = nowYear - birthYear ; //年之差
+            if(ageDiff > 0){
+                if(nowMonth == birthMonth) {
+                    var dayDiff = nowDay - birthDay;//日之差
+                    if(dayDiff < 0)
+                    {
+                        returnAge = ageDiff - 1;
+                    }
+                    else
+                    {
+                        returnAge = ageDiff ;
+                    }
+                }
+                else
+                {
+                    var monthDiff = nowMonth - birthMonth;//月之差
+                    if(monthDiff < 0)
+                    {
+                        returnAge = ageDiff - 1;
+                    }
+                    else
+                    {
+                        returnAge = ageDiff ;
+                    }
+                }
+            }
+            else
+            {
+                returnAge = -1;//返回-1 表示出生日期输入错误 晚于今天
+            }
+        }
+        
+        return returnAge;//返回周岁年龄
+        
+    }
+</script>
+{/block}

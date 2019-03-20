@@ -1,0 +1,312 @@
+{extend name="base" /}
+{block name="body"}
+<script type="text/javascript" src="__JS__/jquery.min.js"></script>
+<div class="layui-body">
+    <style type="text/css">
+        .layui-inline ul li{float:left;}
+		a{color:#0000FF}
+        a:hover{
+            color: #008B00;
+        }
+		.black_overlay{
+		display: none;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 100%;
+		height: 100%;
+		background-color: #F8F8FF;
+		z-index:1001;
+		-moz-opacity: 0.8;
+		opacity:.80;
+		filter: alpha(opacity=80);
+		}
+		.white_content {
+		display: none;
+		position: absolute;
+		top:50%;
+		right: 10%;
+		width: 30%;
+		height: 26%;
+		border: 1px solid lightblue;
+		background-color: #FFFFFF;
+		z-index:1002;
+		overflow: auto;
+		}
+		.clinet{
+		cursor:pointer;
+		font-size: 16px;color:#FFFFFF;
+		background:#D1D1D1;width:50px;
+		height:30px;
+		border: 1px solid;border-radius:5px;
+		}
+		.clepost{
+		cursor:pointer;
+		font-size: 16px;color:#FFFFFF;background:#436EEE;
+		width:50px;height:30px;
+		border: 1px solid;border-radius:5px;
+		}
+    </style>
+    <!--tab标签-->
+    <div class="layui-tab layui-tab-brief">
+        <ul class="layui-tab-title">
+            <li class="layui-this">复赛管理</li>
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <!-- 下拉列表框 -->
+                <form class="layui-form layui-form-pane" action="{:url('admin/courseremach/index')}" method="post">
+                    <div class="layui-inline">
+                        <ul id="u111" >
+                            <li>
+                                <select id="u_cstype" name="cstype" value="{$keyword}">
+                                    <option value="">全部类型</option>
+                                    <option value="1"
+                                    <?php
+                                         if(isset($cstype)){
+                                             if($cstype == 1){
+                                                  echo 'selected';
+                                              }
+                                         }
+                                     ?>
+                                    >个人</option>
+                                    <option value="2"
+                                    <?php
+                                         if(isset($cstype)){
+                                             if($cstype == 2){
+                                                  echo 'selected';
+                                              }
+                                         }
+                                     ?>
+                                    >团体</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select id="u_grade" name="grade">
+                                    <option value="">全部状态</option>
+                                    <option value="4"
+                                    <?php
+                                         if(isset($grade)){
+                                              if($grade == 4){
+                                                 echo 'selected';
+                                              }
+                                           }
+                                    ?>
+                                    >未评奖</option>
+                                    <option value="1"
+                                    <?php
+                                         if(isset($grade)){
+                                              if($grade == 1){
+                                                 echo 'selected';
+                                              }
+                                           }
+                                    ?>
+                                    >一等奖</option>
+                                    <option value="2"
+                                    <?php
+                                         if(isset($grade)){
+                                              if($grade == 2){
+                                                 echo 'selected';
+                                              }
+                                           }
+                                    ?>
+                                    >二等奖</option>
+                                    <option value="3"
+                                    <?php
+                                         if(isset($grade)){
+                                              if($grade == 3){
+                                                 echo 'selected';
+                                              }
+                                           }
+                                    ?>
+                                    >三等奖</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">关键词</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="keyword" value="{$keyword}" placeholder="请输入关键词" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <button class="layui-btn">查询</button>
+                    </div>
+                </form>
+            </div>
+            <div class="layui-tab-item layui-show">
+                <table class="layui-table">
+                    <thead>
+                    <tr>
+                        <th><input name="checkbox" type="checkbox" value="{courseremach_list.id}" />编号</th>
+                        <th>用户名</th>
+                        <th>姓名</th>
+                        <th>任职学校</th>
+                        <!-- <th>性别</th> -->
+                        <th>参赛类型</th>
+                        <th>手机号码</th>
+                        <!--<th>晋级状态</th>-->
+                        <th>视频地址</th>
+                        <th>分享密码</th>
+                        <th>评奖状态</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {foreach name="courseremach_list" item="vo"}
+                    <tr>
+                        <td><input name="checkbox" type="checkbox" value="{$vo.id}"/>{$vo.id}</td>
+                        <input type="hidden" id="uid-{$vo.id}" value="{$vo.id}">
+                        <td>{$vo.username}</td>
+                        <td>{$vo.actualname}</td>
+                        <!--<td>{php}echo $vo['sex']==0? '男' : '女';{/php}</td> -->
+                        <td width='100' style=”word-wrap:break-word;word-break:break-all;”>{$vo.school}</td>
+                        {if condition='$vo.cstype eq 1'}
+                        <td>个人</td>
+                        {/if}
+                        {if condition='$vo.cstype eq 2'}
+                        <td>团体({$vo.groupname})</td>
+                        {/if}
+                        <td>{$vo.mobile}</td>
+                       <!-- <td><i style="color:#FF0000" class="status-bar1">{php}echo $vo['advance_status']==1 ? '已晋级' : '未晋级';{/php}</i></td>-->
+                        <td width='180' style=”word-wrap:break-word;word-break:break-all;”><a href="{$vo.videoURL}">{$vo.videoURL}</a></td>
+                        {if condition='$vo.vipwd neq NULL'}
+                        <td width='100' style=”word-wrap:break-word;word-break:break-all;”>{$vo.vipwd}</td>
+                        {/if}
+                        {if condition='$vo.vipwd eq NULL'}
+                        <td>无密码</td>
+                        {/if}
+						{if condition='$vo.grade eq 0'}
+                        <td><i style="color:#2E8B57" class="status-bar1">未评奖</i></td>
+						{/if}
+						{if condition='$vo.grade eq 1'}
+                        <td><i style="color:#FF0000" class="status-bar1">一等奖</i></td>
+						{/if}
+						{if condition='$vo.grade eq 2'}
+                        <td><i style="color:#FF0000" class="status-bar1">二等奖</i></td>
+						{/if}
+						{if condition='$vo.grade eq 3'}
+                        <td><i style="color:#FF0000" class="status-bar1">三等奖</i></td>
+						{/if}
+                        <td>
+                            {if condition='$vo.grade eq 0'}
+                            <a id="Button1"  value="{$vo.id}" style="cursor:pointer;" onclick="ShowDiv('MyDiv-{$vo.id}','fade')" />评奖<a/>-
+							                    <!--弹出层时背景层DIV-->
+							<div id="fade" class="black_overlay">
+							</div>
+							<div id="MyDiv-{$vo.id}" class="white_content">
+								<div style="height: 25px;padding:10px;background:#F0F0F0;" id="move">
+								<h3>评奖</h3>
+								<!--<span style="padding-right:2px;font-size: 16px;cursor: default;" onclick="CloseDiv('MyDiv','fade')">X</span>-->
+								</div>
+								<div style="float:left;padding:10px;">
+									<span><i style="color:red;font-size: 18px;">*</i>评奖</span>
+                                    <label for="one-{$vo.id}"><input id="one-{$vo.id}"	type="radio" name="gradebt" style="margin-bottom:5px;" value="1" /><span>一等奖</span></label>
+                                    <label for="two-{$vo.id}"><input id="two-{$vo.id}"	type="radio" name="gradebt" style="margin-bottom:5px;" value="2" /><span>二等奖</span></label>
+                                    <label for="three-{$vo.id}"><input id="three-{$vo.id}" type="radio" name="gradebt" style="margin-bottom:5px;" value="3" /><span>三等奖</span></label>
+								</div>
+								<div style="float:left;padding-top:30px;line-height:30px;height:30px;">
+                                    <input type="button" class="clepost"  onclick="
+                                    var gradebt = $('input[name=gradebt]:checked').val();
+                                    var uid = $('#uid-{$vo.id}').val();
+                                    var  award='';
+                                    if(gradebt == '1'){
+                                        award = '一等奖';
+                                    }else if(gradebt == '2'){
+                                        award = '二等奖';
+                                    }else if(gradebt == '3'){
+                                        award = '三等奖';
+                                    }
+                                    var str = '是否确认评为'+ award+'?';
+                                    var r=confirm(str);
+                                    if (r==true)
+                                    {
+                                        $.post('{:url('admin/courseremach/gradepost')}',{gradebt:gradebt,uid:uid},function(data) {
+                                            if(data.code == 2000){
+                                               window.location.href ='{:url('admin/courseremach/index')}';
+                                            }else{
+                                                return false;
+                                            }
+                                        });
+                                    }
+                                    else
+                                    {
+                                        return false;
+                                    }
+                                    " value="提交">
+									<input type="button" class="clinet" onclick="CloseDiv('MyDiv-{$vo.id}','fade')" value="取消">
+								</div>
+							</div>
+                            <a href="{:url('admin/courseremach/details',['id'=>$vo['id']])}">详情</a>
+                            {/if}
+                            {if condition='$vo.grade neq 0'}
+                            <a href="{:url('admin/courseremach/details',['id'=>$vo['id']])}">详情</a>
+                            {/if}
+                        </td>
+                    </tr>
+                    {/foreach}
+                    </tbody>
+                </table>
+                <!--分页-->
+                {$courseremach_list->render()}
+           </div>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        //弹出隐藏层
+        function ShowDiv(show_div,bg_div){
+            //alert($("#advance").attr("value"));
+            document.getElementById(show_div).style.display='block';
+            document.getElementById(bg_div).style.display='block' ;
+            var bgdiv = document.getElementById(bg_div);
+            bgdiv.style.width = document.body.scrollWidth;
+            // bgdiv.style.height = $(document).height();
+            $("#"+bg_div).height($(document).height());
+        };
+        //关闭弹出层
+        function CloseDiv(show_div,bg_div)
+        {
+            document.getElementById(show_div).style.display='none';
+            document.getElementById(bg_div).style.display='none';
+        };
+        //移动
+        window.onload = function (){
+            var myDiv = document.getElementById("MyDiv");
+            var move = document.getElementById("move");
+            var bDrag = false;
+            var disX = disY = 0;
+
+            move.onmousedown = function (event){
+                var event = event || window.event;
+                bDrag = true;
+                disX = event.clientX - myDiv.offsetLeft;
+                disY = event.clientY - myDiv.offsetTop;
+                this.setCapture && this.setCapture();
+                return false;
+            };
+            document.onmousemove = function (event){
+                if (!bDrag) return;
+                var event = event || window.event;
+                var iL = event.clientX - disX;
+                var iT = event.clientY - disY;
+                var maxL = document.documentElement.clientWidth - myDiv.offsetWidth;
+                var maxT = document.documentElement.clientHeight - myDiv.offsetHeight;
+                iL = iL < 0 ? 0 : iL;
+                iL = iL > maxL ? maxL : iL;
+                iT = iT < 0 ? 0 : iT;
+                iT = iT > maxT ? maxT : iT;
+                myDiv.style.marginTop = myDiv.style.marginLeft = 0;
+                myDiv.style.left = iL + "px";
+                myDiv.style.top = iT + "px";
+                return false;
+            };
+            document.onmouseup = window.onblur = move.onlosecapture = function (){
+                bDrag = false;
+                move.releaseCapture && move.releaseCapture();
+            };
+        }
+    </script>
+{/block}

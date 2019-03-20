@@ -1,0 +1,58 @@
+{extend name="base" /}
+{block name="body"}
+
+<!-- 云端cloud主题内容部分 -->
+<div class="cloud_file">
+    <div class="cloud_file_main">
+        <div class="cloud_file_p1">
+            <p>
+                本库存现阶段为初级查看版，暂不支持在线的功能，库存数据每周一更新，您可以在线打开查看，也可以下载保存查看，请你在使用后对库存表的修改提出宝贵意见，我们会在今后的网站技术更新时予以修改，感谢您的使用，祝您工作愉快！
+            </p>
+        </div>
+        <div class="file_main">
+            <ul >
+                <li>
+                    <a href="">
+                        <img class="file_img" src="__STATIC__/imgs/print_02/yunduan_02.jpg" alt=""/>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="file_img" src="__STATIC__/imgs/print_02/yunduan_03.jpg" alt=""/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cloud_note">
+            <div class="cloud_p">
+                <h3>注意事项：</h3>
+                {$cloudcontent}
+                <!--<p>-->
+                    <!--1.本系统现阶段只供出版社内部同志是用，初次使用前请向中版公司相关工作人员索取用户名及初始密码；<br/>-->
+                    <!--2.请您修改初始密码后妥善保存，请不要透露给与工作不想干的人士，用户名、密码丢失请写明原因重新索取；<br/>-->
+                    <!--3.登陆后的数据为保密数据，请不要随意传播，中版联对因数据外泄的纠纷概不负责；<br/>-->
+                    <!--4.本系统使用的最终解释权归中国版联所有。-->
+                <!--</p>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="__JS__/jquery.min.js"></script>
+<script type="text/javascript">
+    //导航中的选中特效
+    $(document).ready(function(){
+        $("#cloud05").each(function(){
+            $this = $(this);
+            $this.addClass("visit");  //visit表示被选中效果的类名
+        });
+        $("#img_05").each(function(){
+            $this = $(this);
+            $this.show();  //选中
+        });
+
+    });
+</script>
+
+{/block}

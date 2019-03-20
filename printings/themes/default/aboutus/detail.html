@@ -1,0 +1,19 @@
+{extend name="base" /}
+{block name="body"}
+<!-- 主题内容部分 -->
+<div class="new_all">
+    <div class="new_main">
+        <div class="new_title">
+            <h4>{$printcompany_list.title}</h4>
+            <ul>
+                <li>简介更新日期：{$printcompany_list.update_time}&nbsp;</li>
+            </ul>
+        </div>
+
+        <!--时事新闻内容-->
+        <div class="new_content">
+            {$printcompany}
+        </div>
+    </div>
+</div>
+{/block}

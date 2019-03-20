@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="331a1e56-7077-41f7-85f0-1ed23578d11a" name="New大佳网站" url="http://47.98.204.211">
+        <fileTransfer host="47.98.204.211" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1144fb98-6568-4d21-8a7c-6bcae7b7aa1a" name="Member144" url="http://47.97.123.144">
+        <fileTransfer host="47.97.123.144" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f213e322-933d-4a80-9d80-d73ff5b346af" name="书城v.dajianet.com" url="http://47.96.118.100">
+        <fileTransfer host="47.96.118.100" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ddacf4f0-2f2b-4375-9213-69cb9563a76e" name="书城后台f.cpgdp.com" url="http://47.96.104.22">
+        <fileTransfer host="47.96.104.22" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9a12214d-4b34-4b32-af7c-95a533850659" name="微信小程序" url="http://47.97.17.177">
+        <fileTransfer host="47.97.17.177" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="56706f4f-7525-49b5-bb74-d21a83d66256" name="数据库项目47.97.182.18" url="http://47.97.182.18">
+        <fileTransfer host="47.97.182.18" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="48a9dda6-dd0f-48ea-b1a7-857d4eeb1b29" name="爱嘟嘟新机器" url="http://39.106.191.234">
+        <fileTransfer host="39.106.191.234" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="103a6779-2252-45ba-b5e4-a36640d0c7e2" name="爱嘟嘟旧机器" url="http://114.55.106.59">
+        <fileTransfer host="114.55.106.59" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="29cf0988-db25-46bf-a41b-e4bccc0e7c38" name="中版联服务器" url="http://39.96.18.39">
+        <fileTransfer host="39.96.18.39" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1d4de631-74be-4c04-ba9a-9709dc5b9067" name="晓知识平台" url="http://114.55.104.205">
+        <fileTransfer host="114.55.104.205" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

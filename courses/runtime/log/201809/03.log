@@ -1,0 +1,241 @@
+[ 2018-09-03T15:09:57+08:00 ] 127.0.0.1 127.0.0.1 GET /src/global.css
+[ log ] course.dj.com/src/global.css [运行时间：0.476745s][吞吐率：2.10req/s] [内存消耗：1,027.77kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\courses\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'src',
+    1 => 'global.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://course.dj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+  'host' => 'course.dj.com',
+)
+[ info ] [ PARAM ] array (
+  '/src/global_css' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-09-03T15:13:57+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] course.dj.com/ [运行时间：1.277071s][吞吐率：0.78req/s] [内存消耗：1,844.25kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\courses\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'if-none-match' => '"290-570dbe41feec0"',
+  'if-modified-since' => 'Fri, 13 Jul 2018 06:50:11 GMT',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+  'host' => 'course.dj.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\courses\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016778s ] mysql:dbname=course_work;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_nav` [ RunTime:0.044812s ]
+[ sql ] [ SQL ] SELECT * FROM `os_nav` WHERE  `status` = 1 ORDER BY `sort`  ASC [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.020341s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `status` = 1  AND `cid` = 1 ORDER BY `sort`  DESC [ RunTime:0.000842s ]
+
+---------------------------------------------------------------
+[ 2018-09-03T15:14:00+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] course.dj.com/favicon.ico [运行时间：0.029391s][吞吐率：34.02req/s] [内存消耗：1,027.88kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\courses\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+  'host' => 'course.dj.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-09-03T15:14:07+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] course.dj.com/ [运行时间：1.084137s][吞吐率：0.92req/s] [内存消耗：1,844.05kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\courses\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'referer' => 'http://course.dj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+  'host' => 'course.dj.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\courses\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003746s ] mysql:dbname=course_work;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_nav` [ RunTime:0.019907s ]
+[ sql ] [ SQL ] SELECT * FROM `os_nav` WHERE  `status` = 1 ORDER BY `sort`  ASC [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.022095s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `status` = 1  AND `cid` = 1 ORDER BY `sort`  DESC [ RunTime:0.000653s ]
+
+---------------------------------------------------------------
+[ 2018-09-03T15:14:09+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] course.dj.com/ [运行时间：1.066643s][吞吐率：0.94req/s] [内存消耗：1,844.05kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\courses\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'referer' => 'http://course.dj.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+  'host' => 'course.dj.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\courses\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002462s ] mysql:dbname=course_work;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_nav` [ RunTime:0.014181s ]
+[ sql ] [ SQL ] SELECT * FROM `os_nav` WHERE  `status` = 1 ORDER BY `sort`  ASC [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.013766s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `status` = 1  AND `cid` = 1 ORDER BY `sort`  DESC [ RunTime:0.000349s ]
+
+---------------------------------------------------------------
+[ 2018-09-03T15:24:42+08:00 ] ::1 ::1 GET /courses/index.php
+[ log ] localhost/courses/index.php [运行时间：1.098563s][吞吐率：0.91req/s] [内存消耗：1,843.66kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\courses\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\courses\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015527s ] mysql:dbname=course_work;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_nav` [ RunTime:0.021122s ]
+[ sql ] [ SQL ] SELECT * FROM `os_nav` WHERE  `status` = 1 ORDER BY `sort`  ASC [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.020947s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `status` = 1  AND `cid` = 1 ORDER BY `sort`  DESC [ RunTime:0.000608s ]
+
+---------------------------------------------------------------

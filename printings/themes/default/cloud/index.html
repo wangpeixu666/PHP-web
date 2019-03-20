@@ -1,0 +1,53 @@
+{extend name="base" /}
+{block name="body"}
+
+<!-- cloud主体内容部分 -->
+<div class="cloud_all">
+    <div class="cloud_content">
+        <div class="cloud_main">
+            <form class="cloud_post" type="form"action="{:url('index/cloud/login')}" method="post">
+                <ul>
+                    <li><input type="text" name="username" required lay-verify="required" autocomplete="off" class="layui-input"></li>
+                    <li><input type="password" name="password" required lay-verify="required" class="layui-input"></li>
+                    <li><input id="login" type="submit" value="LOGIN" href="#"></li>
+                    <li id="log_vehicle">
+                        <span style="float: left;"><input type="checkbox" name="vehicle" value="log_vehicle" checked="checked"/><a href="" id="vehicle_mima">记住密码</a></span>
+                        <span style="float: right;"><a href="#" id="vehicle_error">忘记密码?</a></span>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="cloud_note">
+            <div class="cloud_p">
+                <h3>注意事项：</h3>
+                {$cloudcontent}
+<!--                <p>
+                    1.本系统现阶段只供出版社内部同志是用，初次使用前请向中版公司相关工作人员索取用户名及初始密码；<br/>
+                    2.请您修改初始密码后妥善保存，请不要透露给与工作不想干的人士，用户名、密码丢失请写明原因重新索取；<br/>
+                    3.登陆后的数据为保密数据，请不要随意传播，中版联对因数据外泄的纠纷概不负责；<br/>
+                    4.本系统使用的最终解释权归中国版联所有。
+                </p>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="__JS__/jquery.min.js"></script>
+<script src="__JS__/layui/lay/dest/layui.all.js"></script>
+<script type="text/javascript">
+    //导航中的选中特效
+    $(document).ready(function(){
+        $("#cloud05").each(function(){
+            $this = $(this);
+            $this.addClass("visit");  //visit表示被选中效果的类名
+        });
+        $("#img_05").each(function(){
+            $this = $(this);
+            $this.show();  //选中
+        });
+
+    });
+</script>
+
+{/block}

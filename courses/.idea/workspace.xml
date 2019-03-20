@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba4cabae-ced7-4e77-ad48-485b69aa768a" name="默认的" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="courses" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ids</find>
+      <find>u_createtime</find>
+      <find>ReadFilesize</find>
+      <find>create_time</find>
+      <find>timeone</find>
+      <find>timezone</find>
+      <find>最新</find>
+      <find>weekphb</find>
+      <find>ydTab</find>
+      <find>time</find>
+      <find>publish_section</find>
+      <find>logout</find>
+      <find>定时上线</find>
+      <find>framework.php</find>
+      <find>gets_field</find>
+      <find>$section</find>
+      <find>STATUS_CONTRIBUTE</find>
+      <find>待发</find>
+      <find>STATUS_WAITING</find>
+      <find>STATUS_PUBLISHED</find>
+      <find>cron_publish</find>
+      <find>TIME</find>
+      <find>admin</find>
+      <find>$action==============</find>
+      <find>cron</find>
+      <find>周排行</find>
+      <find>public</find>
+      <find>videofile</find>
+      <find>publish</find>
+      <find>edit</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/common/model/Coursepre.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/public/static/css/admin.css" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/themes/admin/index/index.html" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/themes/admin/admin_user/index.html" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/public/static/css/jcDate.css" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/themes/admin/statistics/details.html" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/themes/admin/base.html" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/admin/controller/User.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/themes/admin/system/change_password.html" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/extend/mobilesdk/seccode.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/levy/controller/vercode11.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/extend/mobilesdk/messageapi.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/extend/mobile_api/MessageApi.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/extend/mobile_api/seccode.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/extend/mobile_api/REST.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/levy/controller/vercode12.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/config.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/levy/controller/Csupload.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/themes/admin/courseremach/index.html" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/index.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/admin/controller/Courseremach.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/levy/controller/Repecharge.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/themes/admin/coursepre/details.html" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/themes/admin/courseremach/details.html" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/themes/admin/coursepre/index.html" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/admin/controller/Coursepre.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/levy/controller/Login.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/levy/controller/Preliminary.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/public/static/js/lyz/statistics.js" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/admin/controller/Statistics.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/levy/controller/Vercode.php" />
+        <option value="&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/themes/admin/statistics/index.html" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/framework/framework.php" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/templates/index2.html" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/cron/cron_cmstop.sh" />
+        <option value="&lt;1144fb98-6568-4d21-8a7c-6bcae7b7aa1a&gt;/home/shuke/member/apps/member/controller/index.php" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/var/log/cron" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/config/book.php" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/usr/local/nginx/logs/error.log" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/usr/local/nginx/conf/vhosts/dajianet.com.conf" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/apps/book/controller/admin/novel.php" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/cron/crontab.php" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/cron/cron_section.php" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/config/cookie.php" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/var/spool/cron/root" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/cmstop_cron.php" />
+        <option value="&lt;9a12214d-4b34-4b32-af7c-95a533850659&gt;/data/www/wxapi/apps/api/app/config/database.php" />
+        <option value="&lt;9a12214d-4b34-4b32-af7c-95a533850659&gt;/data/www/wxapi/apps/api/app/config/development/database.php" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/config/config.php" />
+        <option value="&lt;331a1e56-7077-41f7-85f0-1ed23578d11a&gt;/home/shuke/appserver/dajianet.com/config/define.php" />
+        <option value="&lt;1144fb98-6568-4d21-8a7c-6bcae7b7aa1a&gt;/home/shuke/member/config/config.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="162" />
+    <option name="y" value="33" />
+    <option name="width" value="1650" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../printings" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\WWW\courses\application\levy\validate" />
+      <recent name="D:\phpStudy\WWW\courses\application\common\model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba4cabae-ced7-4e77-ad48-485b69aa768a" name="默认的" comment="" />
+      <created>1529852205275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529852205275</updated>
+      <workItem from="1529852206829" duration="5207000" />
+      <workItem from="1529887492991" duration="28296000" />
+      <workItem from="1529933739413" duration="8671000" />
+      <workItem from="1529973572857" duration="25719000" />
+      <workItem from="1530059223092" duration="30457000" />
+      <workItem from="1530093479299" duration="447000" />
+      <workItem from="1530106400791" duration="13332000" />
+      <workItem from="1530146429779" duration="11298000" />
+      <workItem from="1530164397559" duration="312000" />
+      <workItem from="1530164721224" duration="16112000" />
+      <workItem from="1530319669005" duration="1729000" />
+      <workItem from="1530322160635" duration="12000" />
+      <workItem from="1530322264543" duration="12070000" />
+      <workItem from="1530335594460" duration="9142000" />
+      <workItem from="1530413023721" duration="26881000" />
+      <workItem from="1530451804109" duration="3363000" />
+      <workItem from="1530492502805" duration="24900000" />
+      <workItem from="1530533527596" duration="2229000" />
+      <workItem from="1530578444469" duration="30720000" />
+      <workItem from="1530664477082" duration="22832000" />
+      <workItem from="1530751061439" duration="20379000" />
+      <workItem from="1530836695413" duration="19242000" />
+      <workItem from="1530860371230" duration="6344000" />
+      <workItem from="1531183364557" duration="26499000" />
+      <workItem from="1531214582168" duration="185000" />
+      <workItem from="1531215038910" duration="265000" />
+      <workItem from="1531268659665" duration="3237000" />
+      <workItem from="1531273536399" duration="3281000" />
+      <workItem from="1531292076729" duration="600000" />
+      <workItem from="1531358691256" duration="599000" />
+      <workItem from="1531364775515" duration="6512000" />
+      <workItem from="1531460703192" duration="8359000" />
+      <workItem from="1531826619093" duration="11233000" />
+      <workItem from="1531873495107" duration="26564000" />
+      <workItem from="1531960382159" duration="21572000" />
+      <workItem from="1532138761599" duration="18373000" />
+      <workItem from="1532229911641" duration="5631000" />
+      <workItem from="1532305621118" duration="33853000" />
+      <workItem from="1532340711211" duration="10000" />
+      <workItem from="1532392213809" duration="24870000" />
+      <workItem from="1532564742534" duration="30034000" />
+      <workItem from="1532651319250" duration="32579000" />
+      <workItem from="1532736694810" duration="30091000" />
+      <workItem from="1532910420752" duration="19193000" />
+      <workItem from="1532946094758" duration="10524000" />
+      <workItem from="1532996441967" duration="31347000" />
+      <workItem from="1533083260027" duration="18660000" />
+      <workItem from="1533106811568" duration="9169000" />
+      <workItem from="1533117645768" duration="169000" />
+      <workItem from="1533125653832" duration="1402000" />
+      <workItem from="1533169429711" duration="31960000" />
+      <workItem from="1533210658929" duration="318000" />
+      <workItem from="1533256587617" duration="25355000" />
+      <workItem from="1533601595942" duration="22886000" />
+      <workItem from="1533688627051" duration="20916000" />
+      <workItem from="1533774356273" duration="11582000" />
+      <workItem from="1534206573012" duration="8311000" />
+      <workItem from="1534292537353" duration="3517000" />
+      <workItem from="1534379330056" duration="13764000" />
+      <workItem from="1534466197603" duration="9112000" />
+      <workItem from="1534725038265" duration="16875000" />
+      <workItem from="1534810813583" duration="17238000" />
+      <workItem from="1534898164351" duration="10173000" />
+      <workItem from="1534908426099" duration="16581000" />
+      <workItem from="1534984391026" duration="9471000" />
+      <workItem from="1535070510343" duration="14067000" />
+      <workItem from="1535329793152" duration="9817000" />
+      <workItem from="1535416456702" duration="10588000" />
+      <workItem from="1535503854359" duration="4510000" />
+      <workItem from="1535588956344" duration="4963000" />
+      <workItem from="1535675698212" duration="3911000" />
+      <workItem from="1535694442369" duration="8892000" />
+      <workItem from="1535935260479" duration="2686000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="971998000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.105150215" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09012876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26993167" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26993167" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22049356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09012876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;5187fbc1-31f1-41db-99a1-0b6f530fc575&gt;/courses/application/levy/controller/Login.php</url>
+          <line>193</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;5187fbc1-31f1-41db-99a1-0b6f530fc575&gt;/courses/application/admin/controller/AdminUser.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;5187fbc1-31f1-41db-99a1-0b6f530fc575&gt;/courses/application/levy/controller/Login.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/levy/controller/Login.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/api/controller/Upload.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/home/www/courses/application/levy/controller/Sms.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/admin/controller/AdminUser.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/levy/controller/vercode11.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;ae425fd8-1b3e-463b-a35b-f45b9be5c348&gt;/courses/application/admin/controller/Coursepre.php</url>
+          <line>343</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7032">
+          <caret line="293" column="48" lean-forward="false" selection-start-line="293" selection-start-column="41" selection-end-line="293" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/alimsg/api_sdk/lib/Api/Sms/Request/V20170525/SendSmsRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/alimsg/api_sdk/lib/Core/AcsRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Coursepre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="319" column="34" lean-forward="false" selection-start-line="319" selection-start-column="30" selection-end-line="319" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/zip/zip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="434" column="24" lean-forward="false" selection-start-line="434" selection-start-column="24" selection-end-line="434" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="902" column="9" lean-forward="false" selection-start-line="902" selection-start-column="9" selection-end-line="902" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/alimsg/api_sdk/lib/Api/Sms/Request/V20170525/SendSmsRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/alimsg/api_sdk/lib/Core/AcsRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="305" column="27" lean-forward="false" selection-start-line="305" selection-start-column="27" selection-end-line="305" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="723" column="9" lean-forward="false" selection-start-line="723" selection-start-column="9" selection-end-line="723" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="465" column="9" lean-forward="false" selection-start-line="465" selection-start-column="9" selection-end-line="465" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="134" column="27" lean-forward="false" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/db/Query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="2047" column="20" lean-forward="false" selection-start-line="2047" selection-start-column="20" selection-end-line="2047" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="837" column="20" lean-forward="false" selection-start-line="837" selection-start-column="20" selection-end-line="837" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="571" column="29" lean-forward="false" selection-start-line="571" selection-start-column="21" selection-end-line="571" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="856" column="9" lean-forward="false" selection-start-line="856" selection-start-column="9" selection-end-line="856" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="671" column="9" lean-forward="false" selection-start-line="671" selection-start-column="9" selection-end-line="671" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="1316" column="9" lean-forward="false" selection-start-line="1316" selection-start-column="9" selection-end-line="1316" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="458" column="9" lean-forward="false" selection-start-line="458" selection-start-column="9" selection-end-line="458" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="102" column="13" lean-forward="false" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4077">
+          <caret line="297" column="9" lean-forward="false" selection-start-line="297" selection-start-column="9" selection-end-line="297" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

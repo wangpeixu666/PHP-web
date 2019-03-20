@@ -1,0 +1,39 @@
+{extend name="base" /}
+{block name="body"}
+<!-- 主题内容部分 -->
+<div class="new_all">
+    <div class="new_main">
+        <div class="new_title">
+            <h4>{$printculture.title}</h4>
+            <ul>
+                {if condition='$printculture.update_time eq NULL'}
+                <li>发布日期：{$printculture.create_time}&nbsp;</li>
+                {/if}
+                {if condition='$printculture.update_time neq NULL'}
+                <li>发布日期：{$printculture.update_time}&nbsp;</li>
+                {/if}
+                <li>作者：{$printculture.author}&nbsp;</li>
+                {if condition='$printculture.source eq NULL'}
+                <li>新闻来源：本站编辑<a href="#"></a></li>
+                {/if}
+                {if condition='$printculture.source neq NULL'}
+                <li><a href="{$printpaper.url}">新闻来源：{$printculture.source}</a></li>
+                {/if}
+            </ul>
+        </div>
+        <!--公司文化新闻头图-->
+        <div class="new_img">
+            {if condition='$printculture.thumb eq NULL'}
+            <img class="new_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+            {else /}
+            <img class="new_img" src="__PUBLIC__{$printculture.thumb}"alt=""/>
+            {/if}
+            <!--<img class="new_img" src="__PUBLIC__{$printculture.thumb}"alt=""/>-->
+        </div>
+        <!--公司文化新闻内容-->
+        <div class="new_content">
+            {$printculture_content}
+        </div>
+    </div>
+</div>
+{/block}

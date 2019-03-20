@@ -1,0 +1,34 @@
+{extend name="base" /}
+{block name="body"}
+<!-- 主题内容部分 -->
+<div class="new_all">
+        <div class="new_main">
+            <div class="new_title">
+                <h4>{$printnews_list.title}</h4>
+                <ul>
+                    {if condition='$printnews_list.update_time eq NULL'}
+                    <li>发布日期：{$printnews_list.create_time}&nbsp;</li>
+                    {/if}
+                    {if condition='$printnews_list.update_time neq NULL'}
+                    <li>发布日期：{$printnews_list.update_time}&nbsp;</li>
+                    {/if}
+                    <li>作者：{$printnews_list.author}&nbsp;</li>
+                    {if condition='$printnews_list.source eq NULL'}
+                    <li>新闻来源：本站编辑<a href="#"></a></li>
+                    {/if}
+                    {if condition='$printnews_list.source neq NULL'}
+                    <li><a href="{$printnews_list.url}">新闻来源：{$printnews_list.source}</a></li>
+                    {/if}
+                </ul>
+            </div>
+            <!--时事新闻头图-->
+            <div class="new_img">
+                <img class="new_img" src="__PUBLIC__{$printnews_list.thumb}"alt=""/>
+            </div>
+            <!--时事新闻内容-->
+            <div class="new_content">
+                {$printnews}
+            </div>
+        </div>
+</div>
+{/block}

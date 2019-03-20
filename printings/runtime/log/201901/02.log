@@ -1,0 +1,3924 @@
+[ 2019-01-02T08:39:25+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] px.print.com/ [运行时间：1.299086s][吞吐率：0.77req/s] [内存消耗：2,212.61kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015984s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.076037s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.023943s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.039211s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.028674s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.041114s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000689s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T08:44:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] px.print.com/ [运行时间：1.216433s][吞吐率：0.82req/s] [内存消耗：2,213.13kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030285s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.045434s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.028636s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.001089s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.023799s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.013266s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.013164s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000455s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T08:45:32+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] px.print.com/ [运行时间：1.160969s][吞吐率：0.86req/s] [内存消耗：2,213.13kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016154s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.031718s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.016579s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.018153s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.015569s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.010064s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000373s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T08:56:03+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] px.print.com/ [运行时间：1.141131s][吞吐率：0.88req/s] [内存消耗：2,212.63kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011298s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.030524s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.014604s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.013825s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.010495s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.009128s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000253s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T08:56:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.244472s][吞吐率：0.80req/s] [内存消耗：2,227.16kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016049s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.037678s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.050138s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000421s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T08:57:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.139381s][吞吐率：0.88req/s] [内存消耗：2,227.26kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015607s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.046128s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.017752s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000440s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T08:57:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.111488s][吞吐率：0.90req/s] [内存消耗：2,227.26kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013420s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.032564s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.015176s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000327s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T08:58:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.126239s][吞吐率：0.89req/s] [内存消耗：2,227.26kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014502s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.042142s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.018865s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000380s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T08:58:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.123675s][吞吐率：0.89req/s] [内存消耗：1,978.49kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008256s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.037774s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.021280s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000511s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T08:59:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.114416s][吞吐率：0.90req/s] [内存消耗：1,978.49kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014333s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.020521s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.020368s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000567s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:19:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.146341s][吞吐率：0.87req/s] [内存消耗：2,215.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/paperhow/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.009655s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.037126s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.013181s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.010524s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.014775s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.011454s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000352s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:19:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/newslist.html
+[ log ] px.print.com/index/index/newslist.html [运行时间：1.199074s][吞吐率：0.83req/s] [内存消耗：2,160.66kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'newslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/newslist_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->newslist[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\newslist.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014084s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.033363s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.014339s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 20 [ RunTime:0.000660s ]
+[ error ] [8]Array to string conversion[D:\phpStudy\WWW\printings\runtime\temp\2d3cd6b9f2ea15c5140aae3c9b7c73e5.php:124]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:19:23+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] px.print.com/favicon.ico [运行时间：0.026248s][吞吐率：38.10req/s] [内存消耗：1,064.34kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-02T09:19:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/newslist.html
+[ log ] px.print.com/index/index/newslist.html [运行时间：1.143604s][吞吐率：0.87req/s] [内存消耗：2,023.96kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'newslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/newslist_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->newslist[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\newslist.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022700s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.038222s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.015835s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 20 [ RunTime:0.000459s ]
+[ error ] [8]Array to string conversion[D:\phpStudy\WWW\printings\runtime\temp\2d3cd6b9f2ea15c5140aae3c9b7c73e5.php:124]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:20:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/newslist.html
+[ log ] px.print.com/index/index/newslist.html [运行时间：1.095130s][吞吐率：0.91req/s] [内存消耗：2,145.27kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'newslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/newslist_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->newslist[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\newslist.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006460s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.034353s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.012857s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 20 [ RunTime:0.000453s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:20:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/news/id/8.html
+[ log ] px.print.com/index/index/news/id/8.html [运行时间：1.160688s][吞吐率：0.86req/s] [内存消耗：2,133.30kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/newslist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/news/id/8_html' => '',
+  'id' => '8',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->news[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\news.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printnews',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004449s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.030758s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.020189s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000615s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:21:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.131574s][吞吐率：0.88req/s] [内存消耗：1,995.29kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/news/id/8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002709s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.022165s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.018441s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.019489s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.013792s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.012277s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000341s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:21:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/grouplist.html
+[ log ] px.print.com/index/index/grouplist.html [运行时间：1.114692s][吞吐率：0.90req/s] [内存消耗：2,139.18kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'grouplist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/grouplist_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->grouplist[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\grouplist.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'group_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012358s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.020811s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.022592s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 20 [ RunTime:0.000677s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:21:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/printculture/printculturelist.html
+[ log ] px.print.com/index/printculture/printculturelist.html [运行时间：1.206519s][吞吐率：0.83req/s] [内存消耗：2,129.71kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'printculture',
+    2 => 'printculturelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/printculture/printculturelist_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Printculture->printculturelist[ D:\phpStudy\WWW\printings\application\index\controller\Printculture.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/printculture\printculturelist.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002798s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.026441s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.020292s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 20 [ RunTime:0.000532s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:26:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.166317s][吞吐率：0.86req/s] [内存消耗：2,215.18kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/news/id/8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014956s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.028558s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.020634s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.012958s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.012611s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.010967s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000287s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:26:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.164171s][吞吐率：0.86req/s] [内存消耗：2,215.18kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/news/id/8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017824s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.039009s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.018557s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.013412s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.010651s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.011373s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000320s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:27:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.148506s][吞吐率：0.87req/s] [内存消耗：2,215.68kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/news/id/8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004576s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.041306s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.017183s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.014648s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.013028s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.011267s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000348s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:27:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.162062s][吞吐率：0.86req/s] [内存消耗：2,215.68kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/news/id/8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014260s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.036870s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.016129s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.015628s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.015180s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.015635s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000373s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:27:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.108033s][吞吐率：0.90req/s] [内存消耗：2,215.18kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/news/id/8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004219s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.016939s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.010592s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.011178s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.011318s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.011866s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000350s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:29:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.164045s][吞吐率：0.86req/s] [内存消耗：2,227.22kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015292s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.045323s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.022372s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000571s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:31:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.141502s][吞吐率：0.88req/s] [内存消耗：2,227.28kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016184s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.042302s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.020197s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000461s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:33:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.136325s][吞吐率：0.88req/s] [内存消耗：2,227.28kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014993s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.037679s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.025546s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000624s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:34:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.149524s][吞吐率：0.87req/s] [内存消耗：2,227.28kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018399s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.037935s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.022952s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000521s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:34:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.126507s][吞吐率：0.89req/s] [内存消耗：1,978.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003851s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.042081s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.028434s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000519s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:35:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.108626s][吞吐率：0.90req/s] [内存消耗：2,227.28kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005580s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.034998s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.016988s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000282s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:42:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.144253s][吞吐率：0.87req/s] [内存消耗：2,223.28kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010374s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.041124s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.022484s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000590s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:43:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.203289s][吞吐率：0.83req/s] [内存消耗：1,995.29kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/paperhow/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015376s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.037432s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.020395s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.017828s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.017234s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.017169s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000630s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:44:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/aboutus/index.html
+[ log ] px.print.com/index/aboutus/index.html [运行时间：1.245034s][吞吐率：0.80req/s] [内存消耗：2,186.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'aboutus',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/aboutus/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Aboutus->index[ D:\phpStudy\WWW\printings\application\index\controller\Aboutus.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/aboutus\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'aboutus',
+  15 => 'aboutuscontent',
+  16 => 'aboutlink_a',
+  17 => 'aboutlink_b',
+  18 => 'aboutlink_c',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013726s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.029293s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.025025s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_link` [ RunTime:0.017410s ]
+[ sql ] [ SQL ] SELECT * FROM `os_link` ORDER BY id asc LIMIT 0,17 [ RunTime:0.010691s ]
+[ sql ] [ SQL ] SELECT * FROM `os_link` ORDER BY id asc LIMIT 18,17 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * FROM `os_link` ORDER BY id asc LIMIT 35,17 [ RunTime:0.000485s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:44:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.160451s][吞吐率：0.86req/s] [内存消耗：1,995.29kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/aboutus/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013957s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.029667s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.019568s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.019613s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.014589s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.011199s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000326s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:49:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.169466s][吞吐率：0.86req/s] [内存消耗：1,995.35kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/aboutus/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017638s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.040602s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.015826s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.014814s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.014486s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.014442s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000298s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:49:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/aboutus/index.html
+[ log ] px.print.com/index/aboutus/index.html [运行时间：1.142629s][吞吐率：0.88req/s] [内存消耗：1,959.04kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'aboutus',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/aboutus/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Aboutus->index[ D:\phpStudy\WWW\printings\application\index\controller\Aboutus.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/aboutus\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'aboutus',
+  15 => 'aboutuscontent',
+  16 => 'aboutlink_a',
+  17 => 'aboutlink_b',
+  18 => 'aboutlink_c',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016385s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.035311s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.025678s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_link` [ RunTime:0.018915s ]
+[ sql ] [ SQL ] SELECT * FROM `os_link` ORDER BY id asc LIMIT 0,17 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `os_link` ORDER BY id asc LIMIT 18,17 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `os_link` ORDER BY id asc LIMIT 35,17 [ RunTime:0.000408s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:49:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.122312s][吞吐率：0.89req/s] [内存消耗：2,227.22kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/aboutus/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004835s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.036529s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.017726s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000394s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:52:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.091782s][吞吐率：0.92req/s] [内存消耗：2,227.23kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/printculture/printculturelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002333s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.021357s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.016060s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000298s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:55:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.150816s][吞吐率：0.87req/s] [内存消耗：2,227.30kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/printculture/printculturelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015004s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.041904s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001152s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.017581s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000394s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T09:56:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.123878s][吞吐率：0.89req/s] [内存消耗：1,978.53kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/printculture/printculturelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014430s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.030760s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.026961s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000532s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:01:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.136898s][吞吐率：0.88req/s] [内存消耗：2,227.30kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/printculture/printculturelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010291s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.037877s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.025168s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000617s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:03:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.110038s][吞吐率：0.90req/s] [内存消耗：1,978.53kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/printculture/printculturelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004995s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.031260s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.019866s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000430s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:07:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.156548s][吞吐率：0.86req/s] [内存消耗：2,222.30kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/printculture/printculturelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016928s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.050836s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.001222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.024282s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000369s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:08:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.132182s][吞吐率：0.88req/s] [内存消耗：2,226.30kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/printculture/printculturelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015729s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.041540s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.020074s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000458s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:11:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.081976s][吞吐率：0.92req/s] [内存消耗：2,222.22kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/newslist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005237s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.014930s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.014070s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000186s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:14:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.186563s][吞吐率：0.84req/s] [内存消耗：2,226.28kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/newslist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005192s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.048395s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.032489s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000740s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:15:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.140510s][吞吐率：0.88req/s] [内存消耗：1,977.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/newslist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014536s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.043820s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.026839s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000448s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:17:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.142812s][吞吐率：0.88req/s] [内存消耗：2,226.28kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/newslist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016709s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.039733s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.020820s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000238s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:18:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.126825s][吞吐率：0.89req/s] [内存消耗：2,226.28kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/newslist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006846s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.038197s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.021972s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000483s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:18:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.137829s][吞吐率：0.88req/s] [内存消耗：2,226.28kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/newslist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014854s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.042713s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.022645s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000383s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:20:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] px.print.com/index/index/index.html [运行时间：1.159010s][吞吐率：0.86req/s] [内存消耗：1,995.29kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/paperhow/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017340s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.035114s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.021029s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.001410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.012480s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.011274s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.011772s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000302s ]
+
+---------------------------------------------------------------
+[ 2019-01-02T10:20:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/paperhow/index.html
+[ log ] px.print.com/index/paperhow/index.html [运行时间：1.084293s][吞吐率：0.92req/s] [内存消耗：2,226.22kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'paperhow',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+  'referer' => 'http://px.print.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/paperhow/index_html' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Paperhow->index[ D:\phpStudy\WWW\printings\application\index\controller\Paperhow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/paperhow\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printpaper08_thum',
+  15 => 'printpaper09_thum',
+  16 => 'printpaper10_thum',
+  17 => 'printpaper11_thum',
+  18 => 'printpaper12_thum',
+  19 => 'printpaper13_thum',
+  20 => 'printpaper14_thum',
+  21 => 'printpaper15_thum',
+  22 => 'printpaper16_thum',
+  23 => 'printpaper08',
+  24 => 'printpaper09',
+  25 => 'printpaper10',
+  26 => 'printpaper11',
+  27 => 'printpaper12',
+  28 => 'printpaper13',
+  29 => 'printpaper14',
+  30 => 'printpaper15',
+  31 => 'printpaper16',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004255s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.015133s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printpaper` [ RunTime:0.014922s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `thumb`,`content` FROM `os_printpaper` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000243s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,68 @@
+[ 2018-12-27T10:49:45+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] px.print.com/ [运行时间：1.254636s][吞吐率：0.80req/s] [内存消耗：2,212.08kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\printings\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'px.print.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\printings\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ./themes/default/index\index.html [ array (
+  0 => 'site_title',
+  1 => 'seo_title',
+  2 => 'seo_keyword',
+  3 => 'seo_description',
+  4 => 'site_copyright',
+  5 => 'site_icp',
+  6 => 'site_tongji',
+  7 => 'nav',
+  8 => 'slide',
+  9 => 'banner01',
+  10 => 'banner02',
+  11 => 'banner03',
+  12 => 'banner04',
+  13 => 'banner05',
+  14 => 'printnews_list',
+  15 => 'printgroup_list',
+  16 => 'printnews_left',
+  17 => 'printgroup_right',
+  18 => 'printcompany',
+  19 => 'printculture_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013533s ] mysql:dbname=printings;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_slide` [ RunTime:0.059085s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 1 [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 2 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 3 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 4 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `os_slide` WHERE  `id` = 5 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printnews` [ RunTime:0.020066s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 5 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printgroup` [ RunTime:0.037637s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printgroup` ORDER BY id DESC LIMIT 5 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printnews` ORDER BY id DESC LIMIT 3 [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printculture` [ RunTime:0.028745s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 3 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `os_printcompany` [ RunTime:0.032138s ]
+[ sql ] [ SQL ] SELECT `introduction` FROM `os_printcompany` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `os_printculture` ORDER BY id DESC LIMIT 5 [ RunTime:0.000757s ]
+
+---------------------------------------------------------------

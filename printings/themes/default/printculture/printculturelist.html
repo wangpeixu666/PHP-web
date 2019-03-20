@@ -1,0 +1,24 @@
+{extend name="base" /}
+{block name="body"}
+<!-- 主题内容部分 -->
+<div class="new_all">
+    <div class="new_main">
+        <div id="new_ul" class="new_ul">
+            <!--时事列表-->
+            {foreach name="$printculture_list" item="vo"}
+            <ul>
+                <li>
+                    <a style="float: left" href="{:url('index/printculture/printculture',['id'=>$vo['id']])}" target="_blank">&copy {$vo.title}</a>
+                    {if condition='$vo.update_time eq NULL'}
+                    <span style="float: right"> {$vo.create_time}</span>
+                    {/if}
+                    {if condition='$vo.update_time neq NULL'}
+                    <span style="float: right"> {$vo.update_time}</span>
+                    {/if}
+                </li>
+            </ul>
+            {/foreach}
+        </div>
+    </div>
+</div>
+{/block}

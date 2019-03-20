@@ -1,0 +1,54 @@
+{extend name="base" /}
+{block name="body"}
+<script type="text/javascript" src="__JS__/jquery.min.js"></script>
+<div class="layui-body"><!--style="overflow-x:scroll;width:1200px;white-space:nowrap;"-->
+    <!--tab标签-->
+    <div class="layui-tab layui-tab-brief">
+        <ul class="layui-tab-title">
+            <li class="layui-this">公司简介</li>
+            <!--<li class=""><a href="{:url('admin/printcompany/add')}">添加公司简介</a></li>-->
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <table class="layui-table">
+                    <thead>
+                    <tr>
+                        <th style="width: 15px;"><input type="checkbox" class="check-all"></th>
+                        <th>ID</th>
+                        <th>公司名称</th>
+                        <th>公司地址</th>
+                        <th>邮政编码</th>
+                        <th>邮箱</th>
+                        <th>电话</th>
+                        <th>简介</th>
+                        <th>更新时间</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody id="history_income_list">
+                    {foreach name="printcompany_list" item="vo"}
+                    <tr>
+                        <td><input type="checkbox" name="ids[]" value="{$vo.id}"></td>
+                        <td>{$vo.id}</td>
+                        <td width='80' style="word-wrap:break-word;word-break:break-all;">{$vo.name}</td>
+                        <td width='100' style="word-wrap:break-word;word-break:break-all;">{$vo.address}</td>
+                        <td>{$vo.code}</td>
+                        <td width='100' style="word-wrap:break-word;word-break:break-all;">{$vo.email}</td>
+                        <td>{$vo.phone}</td>
+                        <td>{$vo.introduction}</td>
+                        <td>{$vo.update_time}</td>
+                        <td>
+                            <a href="{:url('admin/printcompany/edit',['id'=>$vo['id']])}" class="layui-btn layui-btn-normal layui-btn-mini">编辑</a>
+                            <!--<a href="{:url('admin/printcompany/delete',['id'=>$vo['id']])}" class="layui-btn layui-btn-danger layui-btn-mini ajax-delete">删除</a>-->
+                        </td>
+                    </tr>
+                    {/foreach}
+                    </tbody>
+                </table>
+                <!--分页-->
+                {$printcompany_list->render()}
+            </div>
+        </div>
+    </div>
+</div>
+{/block}

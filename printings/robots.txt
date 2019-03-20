@@ -1,0 +1,75 @@
+User-agent: *
+Disallow:
+
+
+public function index()
+    {
+
+        if (request()->isPost()){
+            //$applydata = $request->param();
+            $user_id =24;//用户id $applydata['id']
+            // 身份证扫描件 多个图片上传
+            $files = request()->file('sfzfj');
+            //print_r($files);die();
+            if (!$files) {
+                return $this->error('请上传文件');
+            }
+            foreach ($files as $key => $file) {
+                //循环输出验证
+                $info = $file->validate(['size'=>156780,'ext'=>'ppt,pdf,word'])->move(ROOT_PATH . 'public' . DS . 'uploads/preurl/');
+                //print_r($info);die();
+                $save_path   = '/public/uploads/preurl/';
+                if ($info) {
+                    $designname = str_replace('\\', '/', $save_path . $info->getSaveName($key[0]));
+                    $demoname = str_replace('\\', '/', $save_path . $info->getSaveName($key[1]));
+                    $evaluatename = str_replace('\\', '/', $save_path . $info->getSaveName($key[2]));
+                    //$file_sfzfj_all .=$info->getSaveName()."|";
+                    //print_r($designname);
+                    //print_r($demoname);
+                    //print_r($evaluatename);
+                    //die();
+                    $newcsdata = array(
+                        'userid'        =>  $user_id,//用户id
+                        //'csname'        =>  $applydata['csname'],//课件名称
+                        'designname'    =>  $designname,//教学设计
+                        'demoname'      =>  $demoname,//演示课件
+                        'evaluatename'  =>  $evaluatename,//评测练习
+                    );
+                    //更新一条数据
+                    $newone = Db::table('os_usercontent')->where('userid',$user_id)->insertGetId($newcsdata);
+                    //print_r($userId);die();
+                    if ($newone) {
+                        $user = Db::table("os_usercontent")
+                            ->where('userid',$user_id)//查询条件语句
+                            ->find();
+                        $result = [
+                            'error'         => 0,
+                            'userid'        =>$user['userid'],
+                            'designname'    =>$user['designname'],
+                            'demoname'      => $user['demoname'],
+                            'evaluatename'  =>$user['evaluatename']
+                                 ];
+                        //print_r($result);die();
+                    }
+
+                } else {
+                    $result = [
+                        'error'   => 1,
+                        'message' => $file->getError()
+                    ];
+                    //print_r($result);die();
+                }
+            }
+            return json($result);
+            //去掉字符串的最后一个字符
+            //$file_sfzfj = substr($file_sfzfj_all,0,strlen($file_sfzfj_all)-1);
+        }
+
+//            $data = $this->request->file('ppt');
+//            $model = new UploadFiles();
+//            //单文件上传
+//            $ppt = $model->uploadOne($data);
+//            //多文件
+//            //$ppt = $model->uploadAll($data);
+//            //var_dump($ppt);die();
+    }

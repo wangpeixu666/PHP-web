@@ -1,0 +1,34 @@
+{extend name="base" /}
+{block name="body"}
+<!-- 主题内容部分 -->
+<div class="new_all">
+    <div class="new_main">
+        <div class="new_title">
+            <h4>{$printgroup_list.title}</h4>
+            <ul>
+                {if condition='$printgroup_list.update_time eq NULL'}
+                <li>发布日期：{$printgroup_list.create_time}&nbsp;</li>
+                {/if}
+                {if condition='$printgroup_list.update_time neq NULL'}
+                <li>发布日期：{$printgroup_list.update_time}&nbsp;</li>
+                {/if}
+                <li>作者：{$printgroup_list.author}&nbsp;</li>
+                {if condition='$printgroup_list.source eq NULL'}
+                <li>动态来源：本站编辑<a href="#"></a></li>
+                {/if}
+                {if condition='$printgroup_list.source neq NULL'}
+                <li><a href="{$printgroup_list.url}">动态来源：{$printgroup_list.source}</a></li>
+                {/if}
+            </ul>
+        </div>
+        <!--动态头图-->
+        <div class="new_img">
+            <img class="new_img" src="__PUBLIC__{$printgroup_list.thumb}"alt=""/>
+        </div>
+        <!--动态内容-->
+        <div class="new_content">
+            {$printgroup}
+        </div>
+    </div>
+</div>
+{/block}

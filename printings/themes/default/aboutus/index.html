@@ -1,0 +1,115 @@
+{extend name="base" /}
+{block name="body"}
+
+<!-- aboutus主题内容部分 -->
+<div class="aboutus_all">
+    <div class="aboutus_main">
+        <ul>
+            <li class="aboutus_main_left">
+                <div class="aboutus_left_massage">
+                    <ul  id="menuus" >
+                        <li id="left_list01">
+                            <img class="aboutus_left_img" src="__STATIC__/imgs/print_01/aboutus_02.png" alt=""/>
+                        </li>
+                        <li id="left_list02">
+                            <img class="aboutus_left_img" src="__STATIC__/imgs/print_01/find_02.png" alt=""/>
+                        </li>
+                        <li>
+                            <button id="button1" class="aboutus_button">关于我们</button>
+                        </li>
+                        <li>
+                            <button id="button2" class="aboutus_button">友情链接</button>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="aboutus_main_right">
+                <div id="aboutus_right_01" class="aboutus_right_01">
+                    <div class="aboutus_right_01_img">
+                        {if condition='$aboutus.thumb eq NULL'}
+                        <img class="aboutus_right_01_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+                        {else /}
+                        <img class="aboutus_right_01_img" src="__PUBLIC__{$aboutus.thumb}"alt=""/>
+                        {/if}
+                    </div>
+                    <div class="aboutus_right_01_p">
+                        {$aboutuscontent}
+                    </div>
+                    <div class="clear_both"></div>
+                    <!--<a style="float: left" href="{:url('index/aboutus/detail')}" target="_blank">{$aboutuscontent}</a>-->
+                </div>
+                <div id="aboutus_right_02" class="aboutus_right_02">
+                    <ul>
+                        <li>
+                        <div class="right_list1"><!--友情链接0-16-->
+                            <dl>
+                                {foreach name="aboutlink_a" item="val"}
+                                <dd>
+                                    <a href="{$val.link}" target="_blank">{$val.name}</a>
+                                </dd>
+                                {/foreach}
+                            </dl>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="right_list2"><!--友情链接16-32-->
+                                <dl>
+                                    {foreach name="aboutlink_b" item="val"}
+                                    <dd>
+                                        <a href="{$val.link}" target="_blank">{$val.name}</a>
+                                    </dd>
+                                    {/foreach}
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="right_list3"><!--友情链接32-48-->
+                                <dl>
+                                    {foreach name="aboutlink_c" item="val"}
+                                    <dd>
+                                        <a href="{$val.link}" target="_blank">{$val.name}</a>
+                                    </dd>
+                                    {/foreach}
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="clear_both"></div>
+    </div>
+</div>
+
+<script src="__JS__/jquery.min.js"></script>
+<!--<script src="__JS__/print_01/print_about02.js"></script>-->
+<script>
+    $("#left_list02").hide();
+    $("#aboutus_rigt_02").hide();
+    $("#button2").click(function(){
+        $("#left_list02").show();
+        $("#aboutus_right_02").show();
+        $("#left_list01").hide();
+        $("#aboutus_right_01").hide();
+    });
+
+    $("#button1").click(function(){
+        $("#left_list02").hide();
+        $("#aboutus_right_02").hide();
+        $("#left_list01").show();
+        $("#aboutus_right_01").show();
+    });
+</script>
+<script type="text/javascript">
+    //导航中的选中特效
+    $(document).ready(function(){
+        $("#img_02").each(function(){
+            $this = $(this);
+            $this.show();  //选中
+        });
+
+    });
+</script>
+
+
+{/block}

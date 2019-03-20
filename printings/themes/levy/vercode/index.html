@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="__JS__/jq.js"></script>
+<style type="text/css">
+	#frm label.error {
+		color: Red;
+	}
+</style>
+</head>
+<script type="text/javascript">
+    //点击事件
+    $(".button").click(function(){
+    var mobile = $(".mobile").val();//获取手机号码
+    //ajax异步发送
+    $.ajax({
+    url: "http://118.31.112.11/levy/vercode/index", //请求地址，html页面传过来的.php
+    type: "post",
+    data: {mobile: "mobile"},
+    success:function(res){
+    //执行完毕之后调用的方法
+    connsole.log(res);
+    },
+    });
+     
+    });
+</script>
+<body>
+  <label>
+ <input type="number" name="mobile"  placeholder="填写手机号码" /><button class='button'>获取验证码</button>
+  </label>
+  </p>
+</form>
+</body>
+</html>

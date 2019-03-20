@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--<meta name=”viewport” content=”width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes” />-->
+	<link href="__STATIC__/images/title.png" rel="shortcut icon">
+    <title>北京中版联印刷物资有限公司官网</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="__JS__/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="__CSS__/font-awesome.min.css">
+    <link rel="stylesheet" href="__CSS__/jcDate.css">
+    <link rel="stylesheet" href="__CSS__/print_01.css">
+    <link rel="stylesheet" href="__CSS__/print_aboutus.css">
+    <link rel="stylesheet" href="__CSS__/paper_01.css" media="all">
+    <link rel="stylesheet" href="__CSS__/print_contact_cloud.css">
+    <!--CSS引用-->
+    {block name="css"}{/block}
+    <link rel="stylesheet" href="__CSS__/admin.css">
+    <!--[if lt IE 9]>
+    <script src="__CSS__/html5shiv.min.js"></script>
+    <script src="__CSS__/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        *{margin:0;padding:0;list-style:none;}
+        body{background:#fff;font:normal 12px/22px 宋体;width:100%;}
+        img{border:0;}
+        a{text-decoration:none;color:#333;}
+        a:hover{color:#1974A1;}
+        /* fullSlide */
+        .fullSlide{width:100%;position:relative;height:440px;background:#000;}
+        .fullSlide .bd{margin:0 auto;position:relative;z-index:0;overflow:hidden;}
+        .fullSlide .bd ul{width:100% !important;}
+        .fullSlide .bd li{width:100% !important;height:440px;overflow:hidden;text-align:center;}
+        .fullSlide .bd li a{display:block;height:440px;}
+        .fullSlide .hd{width:100%;position:absolute;z-index:1;bottom:0;left:0;height:30px;line-height:30px;}
+        .fullSlide .hd ul{text-align:center;}
+        .fullSlide .hd ul li{cursor:pointer;display:inline-block;*display:inline;zoom:1;width:42px;height:11px;margin:1px;overflow:hidden;background:#000;filter:alpha(opacity=50);opacity:0.5;line-height:999px;}
+        .fullSlide .hd ul .on{background:#f00;}
+        .fullSlide .prev,.fullSlide .next{display:block;position:absolute;z-index:1;top:50%;margin-top:-30px;left:15%;z-index:1;width:40px;height:60px;background:url(../images/slider-arrow.png) -126px -137px #000 no-repeat;cursor:pointer;filter:alpha(opacity=50);opacity:0.5;display:none;}
+        .fullSlide .next{left:auto;right:15%;background-position:-6px -137px;}
+    </style>
+</head>
+<body>
+<div class="body_all">
+    <!--头部-->
+    <div class="header_top">
+            <div class="top-img">
+                <a href="{:url('index/index/index')}">
+                    <img class="top-img" src="__STATIC__/imgs/print_01/print_01.jpg"/>
+                </a>
+            </div>
+            <!--头部导航-->
+            <div class="top-nav">
+                <ul class="menu" id="menu">
+                    <li><a href="{:url('index/index/index')}">首页</a></li>
+                    <li><a href="{:url('index/aboutus/index')}">关于我们</a></li>
+                    <li><a href="{:url('index/paperhow/index')}">纸张知识</a></li>
+                    <li><a href="{:url('index/contact/index')}">联系我们</a></li>
+                    <li><a href="{:url('index/cloud/index')}">云端存储</a></li>
+                    <li><a href="http://px.print.com/admin" target="_blank">后台登陆</a></li>
+                </ul>
+            </div>
+    </div>
+    <!-- 主题图片切换区域 -->
+        <div class="fullSlide">
+            <div class="bd">
+                <ul>
+                    <li _src="__STATIC__/imgs/print_01/print_02.jpg" style="background:#E2025E center 0 no-repeat;">
+                        <a href="{:url('index/index/index')}"></a></li>
+                    <li _src="__STATIC__/imgs/print_01/print_02.jpg" style="background:#DED5A1 center 0 no-repeat;">
+                        <a href="{:url('index/index/index')}"></a></li>
+                    <li _src="__STATIC__/imgs/print_01/print_02.jpg" style="background:#B8CED1 center 0 no-repeat;">
+                        <a href="{:url('index/index/index')}"></a></li>
+                    <li _src="__STATIC__/imgs/print_01/print_02.jpg" style="background:#98918E center 0 no-repeat;">
+                        <a href="{:url('index/index/index')}"></a></li>
+                    <li _src="__STATIC__/imgs/print_01/print_02.jpg" style="background:#FEFF19 center 0 no-repeat;">
+                        <a href="{:url('index/index/index')}"></a></li>
+                </ul>
+            </div>
+            <div class="hd"><ul></ul></div>
+            <span class="prev"></span>
+            <span class="next"></span>
+        </div><!--fullSlide end-->
+    <!-- 中部nav -->
+    <div class="war_nav">
+        <div class="war_nav_span">
+            <p align="left">
+                公告：北京中版联印刷物资有限公司推出云端库存线上测试板，请各出版同志进行线上测试使用，并提出宝贵意见。
+            </p>
+        </div>
+    </div>
+    <!--主体内容部分-->
+    {block name="body"}{/block}
+
+    <!--底部-->
+    <div class="print-footer">
+        <div class="footer_ul">
+            <ul>
+                <li>Copyright &copy 2018 ZBL.com All Rights Reserved  &copy 版权所有·北京中版联印刷物资有限公司</li>
+                <li>&copy<span> 技术支持：中国出版集团数字传媒有限公司</span>
+                    &copy<span>
+                        <a href="">电信业务审批（2009）字第219号 京ICP证090357</a>
+                        京公网安备 11010102002205号
+                        </span>
+                </li>
+                <li>地址：<span>北京市东城区朝阳门内大街甲55号</span></li>
+                <li>电话： <span>010-5811 0842</span>
+                    &copy<span>传真：010-58110878</span>
+                    &copy<span>邮编：100005</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer_nav"></div>
+</div>
+
+<script>
+    // 定义全局JS变量
+    var GV = {
+        current_controller: "index/{$controller|default=''}/",
+        base_url: "__STATIC__"
+    };
+</script>
+<!--JS引用-->
+<script src="__JS__/jquery.min.js"></script>
+<script src="__JS__/print_01/print_01.js"></script>
+<script src="__JS__/layui/lay/dest/layui.all.js"></script>
+<script type="text/javascript" src="__JS__/print_01/superslide.2.1.js"></script>
+<script src="__JS__/admin.js"></script>
+<script type="text/javascript">
+/*    $(document).ready(function(){
+        $("#menu a").each(function(){
+            $(this).click(function(){
+                $(".top-nav li").removeClass("visit");
+                $(this).addClass("visit"); //visit表示被选中效果的类名
+                //return false;//防止页面跳转
+            });
+        });
+
+    });*/
+    //导航别选中特效
+    $(document).ready(function(){
+        $("#menu a").each(function(){
+            $this = $(this);
+            if($this[0].href==String(window.location)){
+                $this.addClass("visit");  //hover表示被选中效果的类名
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(".fullSlide").hover(function(){
+            $(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+        },
+        function(){
+            $(this).find(".prev,.next").fadeOut()
+        });
+    $(".fullSlide").slide({
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        effect: "fold",
+        autoPlay: true,
+        autoPage: true,
+        trigger: "click",
+        startFun: function(i) {
+            var curLi = jQuery(".fullSlide .bd li").eq(i);
+            if ( !! curLi.attr("_src")) {
+                curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+            }
+        }
+    });
+</script>
+{block name="js"}{/block}
+<!--页面JS脚本-->
+{block name="script"}{/block}
+</body>
+</html>

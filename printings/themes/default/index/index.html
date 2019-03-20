@@ -1,0 +1,156 @@
+{extend name="base" /}
+{block name="body"}
+<!-- 主题内容部分 -->
+<div class="content_all">
+	<div class="content_main">
+		<ul>
+			<li class="content_main_left">
+				<div id="left_img" class="main_left_img">
+					<div class="mainleft_img">
+						<ul class="imgList_01">
+							{foreach name="printnews_left" item="vo"}
+							<li class="list">
+								<a href="{:url('index/index/news',['id'=>$vo['id']])}">
+									<img class="main_left_img" src="__PUBLIC__{$vo.thumb}" alt=""/>
+									<div class="img_title">{$vo.title}</div>
+								</a>
+							</li>
+							{/foreach}
+						</ul>
+						<ul class="leftlist">
+							<li class="left_sec"><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="main_left_massage">
+					<div class="main_button">
+						<ul id="left_ul">
+							<li class="button_li01">
+								<a href="{:url('index/index/newslist')}" target="_blank">
+									<button id="left_a" class="main_button1">新闻时事</button>
+								</a>
+								<input type="button" id="left_input01">
+							</li>
+							<li class="button_li02">
+								<a href="{:url('index/index/grouplist')}" target="_blank">
+								<button id="left_b" class="main_button2">集团动态</button>
+								</a>
+								<input type="button" id="left_input02">
+							</li>
+						</ul>
+					</div>
+					<div id="main_ul_01" class="main_ul_01">
+						<!--时事新闻展示-->
+						{foreach name="printnews_list" item="vo"}
+						<ul>
+							<li><a href="{:url('index/index/news',['id'=>$vo['id']])}" target="_blank">{$vo.title}</a></li>
+						</ul>
+						{/foreach}
+						<!--<a class="more_gif" href="{:url('index/index/newslist')}" target="_blank">MORE>></a>-->
+					</div>
+					<div id="main_ul_02" class="main_ul_02">
+						<!--集团动态展示-->
+						{foreach name="printgroup_list" item="vo"}
+						<ul>
+							<li><a href="{:url('index/index/group',['id'=>$vo['id']])}" target="_blank">{$vo.title}</a></li>
+						</ul>
+						{/foreach}
+						<!--<a class="more_gif" href="{:url('index/index/grouplist')}" target="_blank">MORE>></a>-->
+					</div>
+				</div>
+			</li>
+			<li class="content_main_right">
+				<div id="right_img" class="main_right_img">
+					<div class="mainright_img">
+
+						<ul class="imgList_02">
+							{foreach name="printgroup_right" item="vo"}
+							<li class="list">
+								<a href="{:url('index/printculture/printculture',['id'=>$vo['id']])}">
+									<img class="main_right_img" src="__PUBLIC__{$vo.thumb}" alt=""/>
+									<div class="img_title">{$vo.title}</div>
+								</a>
+							</li>
+							{/foreach}
+						</ul>
+
+						<ul class="rightlist">
+							<li class="right_sec"><a href="#"></a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="main_right_massage">
+					<div class="main_button">
+						<ul>
+							<li class="button_li01">
+								<a href="{:url('index/aboutus/index')}" target="_blank">
+								<button id="right_a" class="main_button1">公司简介</button>
+								</a>
+								<input type="button" id="right_input03">
+							</li>
+							<li class="button_li02">
+								<a href="{:url('index/printculture/printculturelist')}" target="_blank">
+								<button id="right_b" class="main_button2">公司文化</button>
+								</a>
+								<input type="button" id="right_input04">
+							</li>
+						</ul>
+					</div>
+					<div id="main_ul_03" class="main_ul_03">
+						<a href="{:url('index/aboutus/index')}">
+							<div class="ul_03_p"><p>{$printcompany}</p></div>
+						</a>
+						<!--<a class="more_gif" href="{:url('index/aboutus/index')}">MORE>></a>-->
+					</div>
+					<div id="main_ul_04" class="main_ul_04">
+						<!--公司文化新闻-->
+						{foreach name="printculture_list" item="vo"}
+						<ul>
+							<li>
+								<a href="{:url('index/printculture/printculture',['id'=>$vo['id']])}" target="_blank">{$vo.title}</a>
+							</li>
+						</ul>
+						{/foreach}
+						<!--<a class="more_gif" href="{:url('index/paperhow/index')}">MORE>></a>-->
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script src="__JS__/jquery.min.js"></script>
+<script src="__JS__/print_01/print_02.js"></script>
+<script src="__JS__/print_01/print_03.js"></script>
+<script src="__JS__/print_01/print_nav01.js"></script>
+<!--<script> -->
+	<!--// 分辨率大于等于1680，大部分为1920的情况下，调用此css-->
+	<!--if(window.screen.width >= 1280){-->
+	    <!--document.write('<script src=\"__JS__/print_01/print_02.js\"><\/script>');-->
+	<!--}else{-->
+        <!--document.write('<script src="__JS__/print_01/print_02_1280.js"><\/script>');-->
+	<!--}-->
+<!--</script>-->
+<!--<script> -->
+	<!--// 分辨率大于等于1680，大部分为1920的情况下，调用此css-->
+<!--if(window.screen.width >= 1280){-->
+    <!--document.write('<script src="__JS__/print_01/print_03.js"><\/script>');-->
+<!--}else{-->
+    <!--document.write('<script src="__JS__/print_01/print_03_1280.js"><\/script>');-->
+<!--}-->
+<!--</script>-->
+<script type="text/javascript">
+    //导航中的选中特效
+    $(document).ready(function(){
+        $("#home01").each(function(){
+            $this = $(this);
+            $this.addClass("visit");  //visit表示被选中效果的类名
+        });
+
+    });
+</script>
+{/block}

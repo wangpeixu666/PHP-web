@@ -1,0 +1,300 @@
+{extend name="base" /}
+{block name="body"}
+<!-- paper主题内容部分 -->
+<div class="paper_all">
+    <div class="paper_main">
+            <div class="paper_main_left">
+                <div id="paper_left_img" class="paper_left_img">
+                    <div class="paper_left_nav">
+                        <ul id="papermenu" class="papermenu">
+                            <li class="list">
+                                <button id="left_ton01" >胶版纸</button>
+                            </li>
+                            <li class="list">
+                                <button id="left_ton02" >铜版纸</button>
+                            </li>
+                            <li class="list">
+                                <button id="left_ton03">轻型纸</button>
+                            </li>
+                            <li class="list">
+                                <button id="left_ton04" >纯质纸</button>
+                            </li>
+                            <li class="list">
+                                <button id="left_ton05" >轻涂纸</button>
+                            </li>
+                            <li class="list">
+                                <button id="left_ton06" >字典纸</button>
+                            </li>
+                            <li class="list">
+                                <button id="left_ton07" >新闻纸</button>
+                            </li>
+                            <li class="list">
+                                <button id="left_ton08" >特种纸</button>
+                            </li>
+                            <li class="list">
+                                <button id="left_ton09" style="font-family: 'Times New Roman'" >纸&nbsp;&nbsp;浆</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="paper_main_right">
+                <div id="rigt_key01" class="paper_right_massage">
+                    <div class="paper_right_img">
+                        {if condition='$printpaper08_thum.thumb eq NULL'}
+                        <img class="paper_right_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+                        {else /}
+                        <img class="paper_right_img" src="__PUBLIC__{$printpaper08_thum.thumb}"alt=""/>
+                        {/if}
+                    </div>
+                    <div class="paper_p">
+                        <!--08-->
+                        {$printpaper08}
+                    </div>
+                </div>
+                <div id="rigt_key02" class="paper_right_massage">
+                    <div class="paper_right_img">
+                        {if condition='$printpaper09_thum.thumb eq NULL'}
+                        <img class="paper_right_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+                        {else /}
+                        <img class="paper_right_img" src="__PUBLIC__{$printpaper09_thum.thumb}"alt=""/>
+                        {/if}
+                    </div>
+                    <div class="paper_p">
+                        <!--09-->
+                        {$printpaper09}
+                    </div>
+                </div>
+                <div id="rigt_key03" class="paper_right_massage">
+                    <div class="paper_right_img">
+                        {if condition='$printpaper10_thum.thumb eq NULL'}
+                        <img class="paper_right_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+                        {else /}
+                        <img class="paper_right_img" src="__PUBLIC__{$printpaper10_thum.thumb}"alt=""/>
+                        {/if}
+                    </div>
+                    <div class="paper_p">
+                        <!--10-->
+                        {$printpaper10}
+                    </div>
+                </div>
+                <div id="rigt_key04" class="paper_right_massage">
+                    <div class="paper_right_img">
+                        {if condition='$printpaper11_thum.thumb eq NULL'}
+                        <img class="paper_right_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+                        {else /}
+                        <img class="paper_right_img" src="__PUBLIC__{$printpaper11_thum.thumb}"alt=""/>
+                        {/if}
+                    </div>
+                    <div class="paper_p">
+                        <!--11-->
+                        {$printpaper11}
+                    </div>
+                </div>
+                <div id="rigt_key05" class="paper_right_massage">
+                    <div class="paper_right_img">
+                        {if condition='$printpaper12_thum.thumb eq NULL'}
+                        <img class="paper_right_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+                        {else /}
+                        <img class="paper_right_img" src="__PUBLIC__{$printpaper12_thum.thumb}"alt=""/>
+                        {/if}
+                    </div>
+                    <div class="paper_p">
+                        <!--12-->
+                        {$printpaper12}
+                    </div>
+                </div>
+                <div id="rigt_key06" class="paper_right_massage">
+                    <div class="paper_right_img">
+                        {if condition='$printpaper13_thum.thumb eq NULL'}
+                        <img class="paper_right_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+                        {else /}
+                        <img class="paper_right_img" src="__PUBLIC__{$printpaper13_thum.thumb}"alt=""/>
+                        {/if}
+                    </div>
+                    <div class="paper_p">
+                        <!--13-->
+                        {$printpaper13}
+                    </div>
+                </div>
+                <div id="rigt_key07" class="paper_right_massage">
+                    <div class="paper_right_img">
+                        {if condition='$printpaper14_thum.thumb eq NULL'}
+                        <img class="paper_right_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+                        {else /}
+                        <img class="paper_right_img" src="__PUBLIC__{$printpaper14_thum.thumb}"alt=""/>
+                        {/if}
+                    </div>
+                    <div class="paper_p">
+                        <!--14-->
+                        {$printpaper14}
+                    </div>
+                </div>
+                <div id="rigt_key08" class="paper_right_massage">
+                    <div class="paper_right_img">
+                        {if condition='$printpaper15_thum.thumb eq NULL'}
+                        <img class="paper_right_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+                        {else /}
+                        <img class="paper_right_img" src="__PUBLIC__{$printpaper15_thum.thumb}"alt=""/>
+                        {/if}
+                    </div>
+                    <div class="paper_p">
+                        <!--15-->
+                        {$printpaper15}
+                    </div>
+                </div>
+                <div id="rigt_key09" class="paper_right_massage">
+                    <div class="paper_right_img">
+                        {if condition='$printpaper16_thum.thumb eq NULL'}
+                        <img class="paper_right_img" src="__STATIC__/imgs/print_01/paper_02.jpg"alt=""/>
+                        {else /}
+                        <img class="paper_right_img" src="__PUBLIC__{$printpaper16_thum.thumb}"alt=""/>
+                        {/if}
+                    </div>
+                    <div class="paper_p">
+                        <!--16-->
+                        {$printpaper16}
+                    </div>
+                </div>
+            </div>
+        <div class="clear_both"></div>
+    </div>
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script scr="__JS__/print_01/print_paper.js"></script>
+<script type="text/javascript">
+    //导航中的选中特效
+    $(document).ready(function(){
+        $("#img_03").each(function(){
+            $this = $(this);
+            $this.show();  //选中
+        });
+
+    });
+</script>
+<script type="text/javascript">
+    //纸张知识按钮的选中特效
+/*    $(document).ready(function(){
+        $("#papermenu button").each(function(){
+            $this = $(this);
+            $this.addClass("activepaper");  //click_paperbutton表示被选中效果的类名
+        });
+
+    });*/
+/*    $('#left_ton01').click(function(){//给id为left_ton01的元素添加点击事件
+        $(this).toggleClass('activepaper');//每次点击的时候，将当前的元素切换active样式
+                                      //如果有，则去掉，否则添加
+    });*/
+</script>
+<script type="text/javascript">
+    //每一次添加按钮和内容页的时候都需要增加一个
+    $("#rigt_key02").hide();
+    $("#rigt_key03").hide();
+    $("#rigt_key04").hide();
+    $("#rigt_key05").hide();
+    $("#rigt_key06").hide();
+    $("#rigt_key07").hide();
+    $("#rigt_key08").hide();
+    $("#rigt_key09").hide();
+    $("#left_ton01").click(function(){
+        $("#rigt_key01").show();
+        $("#rigt_key02").hide();
+        $("#rigt_key03").hide();
+        $("#rigt_key04").hide();
+        $("#rigt_key05").hide();
+        $("#rigt_key06").hide();
+        $("#rigt_key07").hide();
+        $("#rigt_key08").hide();
+        $("#rigt_key09").hide();
+    });
+    $("#left_ton02").click(function(){
+        $("#rigt_key02").show();
+        $("#rigt_key01").hide();
+        $("#rigt_key03").hide();
+        $("#rigt_key04").hide();
+        $("#rigt_key05").hide();
+        $("#rigt_key06").hide();
+        $("#rigt_key07").hide();
+        $("#rigt_key08").hide();
+        $("#rigt_key09").hide();
+    });
+    $("#left_ton03").click(function(){
+        $("#rigt_key03").show();
+        $("#rigt_key01").hide();
+        $("#rigt_key02").hide();
+        $("#rigt_key04").hide();
+        $("#rigt_key05").hide();
+        $("#rigt_key06").hide();
+        $("#rigt_key07").hide();
+        $("#rigt_key08").hide();
+        $("#rigt_key09").hide();
+    });
+    $("#left_ton04").click(function(){
+        $("#rigt_key04").show();
+        $("#rigt_key01").hide();
+        $("#rigt_key02").hide();
+        $("#rigt_key03").hide();
+        $("#rigt_key05").hide();
+        $("#rigt_key06").hide();
+        $("#rigt_key07").hide();
+        $("#rigt_key08").hide();
+        $("#rigt_key09").hide();
+    });
+    $("#left_ton05").click(function(){
+        $("#rigt_key05").show();
+        $("#rigt_key01").hide();
+        $("#rigt_key02").hide();
+        $("#rigt_key03").hide();
+        $("#rigt_key04").hide();
+        $("#rigt_key06").hide();
+        $("#rigt_key07").hide();
+        $("#rigt_key08").hide();
+        $("#rigt_key09").hide();
+    });
+    $("#left_ton06").click(function(){
+        $("#rigt_key06").show();
+        $("#rigt_key01").hide();
+        $("#rigt_key02").hide();
+        $("#rigt_key03").hide();
+        $("#rigt_key04").hide();
+        $("#rigt_key05").hide();
+        $("#rigt_key07").hide();
+        $("#rigt_key08").hide();
+        $("#rigt_key09").hide();
+    });
+    $("#left_ton07").click(function(){
+        $("#rigt_key07").show();
+        $("#rigt_key01").hide();
+        $("#rigt_key02").hide();
+        $("#rigt_key03").hide();
+        $("#rigt_key04").hide();
+        $("#rigt_key05").hide();
+        $("#rigt_key06").hide();
+        $("#rigt_key08").hide();
+        $("#rigt_key09").hide();
+    });
+    $("#left_ton08").click(function(){
+        $("#rigt_key08").show();
+        $("#rigt_key01").hide();
+        $("#rigt_key02").hide();
+        $("#rigt_key03").hide();
+        $("#rigt_key04").hide();
+        $("#rigt_key06").hide();
+        $("#rigt_key06").hide();
+        $("#rigt_key07").hide();
+        $("#rigt_key09").hide();
+    });
+    $("#left_ton09").click(function(){
+        $("#rigt_key09").show();
+        $("#rigt_key01").hide();
+        $("#rigt_key02").hide();
+        $("#rigt_key03").hide();
+        $("#rigt_key04").hide();
+        $("#rigt_key05").hide();
+        $("#rigt_key06").hide();
+        $("#rigt_key07").hide();
+        $("#rigt_key08").hide();
+    });
+</script>
+
+{/block}

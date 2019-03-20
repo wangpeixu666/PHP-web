@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--<meta name=”viewport” content=”width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes” />-->
+	<link href="__STATIC__/images/title.png" rel="shortcut icon">
+    <title>北京中版联印刷物资有限公司官网</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="__JS__/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="__CSS__/font-awesome.min.css">
+    <link rel="stylesheet" href="__CSS__/jcDate.css">
+    <link rel="stylesheet" href="__CSS__/print_01.css">
+    <link rel="stylesheet" href="__CSS__/print_aboutus.css">
+    <link rel="stylesheet" href="__CSS__/paper_01.css" media="all">
+    <link rel="stylesheet" href="__CSS__/print_contact_cloud.css">
+    <!--CSS引用-->
+    {block name="css"}{/block}
+    <link rel="stylesheet" href="__CSS__/admin.css">
+    <!--[if lt IE 9]>
+    <script src="__CSS__/html5shiv.min.js"></script>
+    <script src="__CSS__/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="body_all">
+    <!--头部-->
+    <div class="header_top">
+            <div class="top-img">
+                <a href="{:url('index/index/index')}">
+                    <img class="top-img" src="__STATIC__/imgs/print_01/print_01.jpg"/>
+                </a>
+            </div>
+            <!--头部导航-->
+            <div class="top-nav">
+                <ul class="menu" id="menu">
+                    <li><a href="{:url('index/index/index')}">首页</a></li>
+                    <li><a href="{:url('index/aboutus/index')}">关于我们</a></li>
+                    <li><a href="{:url('index/paperhow/index')}">纸张知识</a></li>
+                    <li><a href="{:url('index/contact/index')}">联系我们</a></li>
+                    <li><a href="{:url('index/cloud/index')}">云端存储</a></li>
+                    <li><a href="http://px.print.com/admin" target="_blank">后台登陆</a></li>
+                </ul>
+            </div>
+    </div>
+    <!-- 主题图片切换区域 -->
+    <div id="warpper" >
+        <div class="container">
+            <ul id="imgList" class="imgList">
+                <li>
+                    <a href="{:url('index/index/index')}">
+                        <img class="cont-img" src="__STATIC__/imgs/print_01/print_02.jpg" alt=""/>
+                    </a>
+                </li>
+                <li>
+                    <a href="{:url('index/aboutus/index')}">
+                        <img class="cont-img" src="__STATIC__/imgs/print_01/aboutus_01.jpg" alt=""/>
+                    </a>
+                </li>
+                <li>
+                    <a href="{:url('index/paperhow/index')}">
+                        <img class="cont-img" src="__STATIC__/imgs/print_01/paper_01.jpg" alt=""/>
+                    </a>
+                </li>
+                <li>
+                    <a href="{:url('index/contact/index')}">
+                        <img class="cont-img" src="__STATIC__/imgs/print_01/contact_01.jpg" alt=""/>
+                    </a>
+                </li>
+                <li>
+                    <a href="{:url('index/cloud/index')}">
+                        <img class="cont-img" src="__STATIC__/imgs/print_01/yunduan_01.jpg" alt=""/>
+                    </a>
+                </li>
+            </ul>
+            <!-- 左右切换图标 -->
+            <!--		<img src="__STATIC__/imgs/print_01/pre.png" width="19px" height="20px" class="pre">
+                    <img src="__STATIC__/imgs/print_01/next.png" width="19px" height="20px" class="next">-->
+            <!-- 下方控制图片按钮 -->
+            <ul class="dollList">
+                <li class="sec"><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 中部nav -->
+    <div class="war_nav">
+        <div class="war_nav_span">
+            <p align="left">
+                公告：北京中版联印刷物资有限公司推出云端库存线上测试板，请各出版同志进行线上测试使用，并提出宝贵意见。
+            </p>
+        </div>
+    </div>
+    <!--主体内容部分-->
+    {block name="body"}{/block}
+
+    <!--底部-->
+    <div class="print-footer">
+        <div class="footer_ul">
+            <ul class="layui-main">
+                <li>Copyright &copy 2018 ZBL.com All Rights Reserved  &copy 版权所有·北京中版联印刷物资有限公司</li>
+                <li>&copy<span> 技术支持：中国出版集团数字传媒有限公司</span>
+                    &copy<span> 电信业务审批（2009）字第219号 京ICP证090357   京公网安备 11010102002205号</span>
+                </li>
+                <li>地址：<span>北京市东城区朝阳门内大街甲55号</span></li>
+                <li>电话： <span>010-5811 0842</span>
+                    &copy<span>传真：010-58110878</span>
+                    &copy<span>邮编：100005</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer_nav"></div>
+</div>
+
+<script>
+    // 定义全局JS变量
+    var GV = {
+        current_controller: "index/{$controller|default=''}/",
+        base_url: "__STATIC__"
+    };
+</script>
+<!--JS引用-->
+<script src="__JS__/jquery.min.js"></script>
+<script src="__JS__/print_01/print_01.js"></script>
+<script src="__JS__/layui/lay/dest/layui.all.js"></script>
+<script src="__JS__/admin.js"></script>
+<script type="text/javascript">
+    //导航别选中特效
+    $(document).ready(function(){
+        $("#menu a").each(function(){
+            $this = $(this);
+            if($this[0].href==String(window.location)){
+                $this.addClass("visit");  //hover表示被选中效果的类名
+            }
+        });
+    });
+</script>
+{block name="js"}{/block}
+<!--页面JS脚本-->
+{block name="script"}{/block}
+</body>
+</html>

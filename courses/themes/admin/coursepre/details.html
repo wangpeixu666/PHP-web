@@ -1,0 +1,131 @@
+{extend name="base" /}
+{block name="body"}
+<script type="text/javascript" src="__JS__/jquery.min.js"></script>
+<style>
+    a{color:#0000FF}
+    a:hover{
+        color: #008B00;
+    }
+    .advanced{
+        padding:15px;
+        margin:15px;
+        text-align: center;
+
+    }
+    .advanced input{
+        padding:10px;
+        width:120px;
+        height:40px;
+        line-height: 15px;
+        border:0px solid;
+        border-radius:5px;
+        background: #009ACD;
+        color: #FFFFFF;
+        cursor:pointer;
+    }
+
+    .layui-table tbody tr th{background-color: #f2f2f2;}
+</style>
+<div class="layui-body">
+    <!--tab标签-->
+    <div class="layui-tab layui-tab-brief">
+        <ul class="layui-tab-title">
+            <li class=""><a href="{:url('admin/coursepre/index')}">初赛管理</a></li>
+  <!--          <li class=""><a href="{:url('admin/coursenew/add')}">添加课件</a></li>-->
+            <li class="layui-this">初赛详情</li>
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <table border="1" class="layui-table">
+                    <input type="hidden" id="{$coursepre_details.id}" value="{$coursepre_details.id}">
+                    <tr>
+                        <th>姓名</th><td>{$coursepre_details.actualname}</td>
+                        <th>性别</th>
+                        <td>{php}echo $coursepre_details['sex']==0 ? '男' : '女';{/php}</td>
+                    </tr>
+                    <tr>
+                        <th>出生年月</th><td>{$coursepre_details.birthdate}({$age}岁)</td>
+                        <th>联系电话</th><td>{$coursepre_details.mobile}</td>
+                    </tr>
+                    <tr>
+                        <th>职称</th><td>{$coursepre_details.jobtitle}</td>
+                        <th>授课年级</th><td>{$coursepre_details.teachgrade}</td>
+                    </tr>
+                    <tr><th>任职学校</th><td>{$coursepre_details.school}</td></tr>
+                    <tr><th>联系地址</th><td>{$coursepre_details.address}</td></tr>
+                    <tr><th>参赛性质</th>
+                        {if condition="$coursepre_details.cstype eq 1"}
+                        <td>个人</td>
+                        {/if}
+                        {if condition="$coursepre_details.cstype eq 2"}
+                        <td>团体({$coursepre_details.groupname})</td>
+                        {/if}
+                    </tr>
+                    <tr><th>课件名称</th><td>{$coursepre_details.csname}</td></tr>
+                    <tr><th>教学设计</th><td>[教学设计]{$designname}({$designbig})
+                        <a style="float:right;" href="{:url('admin/coursepre/download',['id'=>$coursepre_details['id']])}">
+                         教学课件下载
+                        </a>
+                    </td></tr>
+                    <tr><th>演示课件</th><td>[演示课件]{$demoname}({$demonbig})
+                        <a style="float:right;" href="{:url('admin/coursepre/downdemoname',['id'=>$coursepre_details['id']])}">
+                            演示课件下载
+                        </a>
+                    </td></tr>
+                    <tr><th>评测练习</th>
+                        {if condition='$coursepre_details.evaluatename eq NULL'}
+                        <td>评测文件未上传</td>
+                        {/if}
+                        {if condition='$coursepre_details.evaluatename neq NULL'}
+                        <td>[评测练习]{$evaluatename}({$evaluatenbig})
+                            <a style="float:right;" href="{:url('admin/coursepre/downevaluatename',['id'=>$coursepre_details['id']])}">
+                                评测课件下载
+                            </a>
+                        </td>
+                        {/if}
+                    </tr>
+                    <tr><th>状态</th>
+                        {if condition='$coursepre_details.advance_status eq 0'}
+                        <td><i style="color:#2E8B57" class="status-bar1">未晋级</i></td>
+                        {/if}
+                        {if condition='$coursepre_details.advance_status eq 1'}
+                        <td><i style="color:#FF0000" class="status-bar1">已晋级(可去复赛查看)</i></td>
+                        {/if}
+                    </tr>
+
+                </table>
+                <div class="advanced">
+                    <a href="{:url('admin/coursepre/zipdown',['id'=>$coursepre_details['id']])}">
+                        <input type="button" value="下载课件"/>
+                    </a>
+                    {if condition='$coursepre_details.advance_status eq 0'}
+                    <a id="advance" style="cursor:pointer;" onclick="
+                    var r=confirm('是否确定晋级决赛？');
+                        if (r==true)
+                        {
+                            window.location.href ='{:url('admin/coursepre/advanced',['id'=>$coursepre_details['id']])}';
+                        }else{
+                            return false;
+                             }
+                        " value="{$coursepre_details.id}">
+                        <input type="button" value="晋级决赛"/>
+                    </a>
+                    {/if}
+                    {if condition='$coursepre_details.advance_status eq 1'}
+                        <input type="button" style="color: #FF0000;" value="已晋级决赛">
+                    {/if}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}
+{block name="js"}
+<script src="__JS__/ueditor/ueditor.config.js"></script>
+<script src="__JS__/ueditor/ueditor.all.min.js"></script>
+{/block}
+{block name="script"}
+<script>
+    var ue = UE.getEditor('content');
+</script>
+{/block}

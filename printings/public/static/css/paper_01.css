@@ -1,0 +1,135 @@
+
+
+/*---纸张主内容样式---*/
+.paper_all{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.paper_main{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:1000px;
+    /*height: 1850px;*/
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background: #FFFAF0;/*详情页和列表页以及其他内容背景色*/
+}
+.paper_main_left{
+    width:280px;
+    float:left;
+    padding-left: 10px;
+    /*background: #ff2222;*/
+}
+
+.paper_left_nav{
+     width:280px;
+     height:800px;
+     /*background: green;*/
+ }
+.paper_left_nav li{
+    width:275px;
+    height:35px;
+    line-height: 30px;
+    text-align: left;
+    /*background: green;*/
+}
+.papermenu button{
+    cursor:pointer;/*手势*/
+    color:#f5f4b3;
+    border: none;
+    width:275px;
+    height:30px;
+    text-align: center;
+    /*font:normal 14px/22px "宋体";*/
+    font-size: 14px;
+    font-family:"宋体";
+    letter-spacing: 6.0px;
+    background:url(../images/pattern5.png);
+    /*background: #8a0000;*/
+    /*background: url(../imgs/print_01/nav_05.jpg) 200px 38px;*/
+}
+/*.button_href{
+    width:240px;
+    height:35px;
+    line-height: 35px;
+    border: none;
+    background-color: #A52A2A;
+}*/
+
+.paper_main_right{
+    width:700px;
+    height: 100%;
+    margin: 0px auto;
+    padding-right: 10px;
+    text-align: center;
+    float:right;
+    /*background: #ffcc66;*/
+}
+.paper_right_massage{
+    padding-left: 10px;
+    padding-right: 10px;
+    width:690px;
+    text-align: left;
+}
+.paper_right_img{
+    width:690px;
+    height:380px;
+    text-align: center;
+}
+.paper_p{
+    width:691px;
+    height: 100%;
+    /*letter-spacing: 2px;*/
+    padding-right: 0px;
+}
+.paper_p p{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 691px;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px auto;
+    color:#8a0000;
+    word-break:break-all;
+}
+.paper_p:hover{
+    cursor:pointer;/*手势*/
+    color: #000000;
+
+}
+
+/*.paper_p p{*/
+    /*width:691px;*/
+    /*height: 100%;*/
+    /*line-height: 28px;*/
+    /*!*letter-spacing: 2px;*!*/
+    /*padding-right: 0px;*/
+    /*color:#8a0000;*/
+    /*word-break:break-all;*/
+/*}*/
+.papermenu button:hover{
+    background: #6b0000;
+    border:none;
+    color:#FFFFFF;
+}
+.activepaper{
+    background: #6b0000;
+    border:none;
+    color:#FFFFFF;
+}
+
+/*button{background:url(../images/pattern5.png);}*/
+/*button.active{ background: #6b0000;}*/
+
+
+/*---主体内容--*/
+
+.more_gif{color:#8a0000;float:right;padding-right: 0px;padding-top: 10px;}
+
+
+
+
