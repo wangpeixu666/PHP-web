@@ -35,5 +35,3 @@ OSChina: [http://git.oschina.net/cnsecer/ThinkAdmin](http://git.oschina.net/cnse
 
 博客: [http://www.cnsecer.com/8072.html](http://www.cnsecer.com/8072.html)
 
-## 联系我
-QQ:`1198088747`
